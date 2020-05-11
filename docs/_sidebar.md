@@ -1,3 +1,5 @@
+- **[背景场景](/背景场景)**
+- 
 - **快速开始**
     - [DHCP配置IP](DHCP.md)
     - [Ouster Visulaizer](OusterViz.md)
