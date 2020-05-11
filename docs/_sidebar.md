@@ -22,7 +22,7 @@
     - [数据结构](datastructure.md)
     - [激光雷达坐标系（待更新）](coordinate.md)
     - **[ASIC2019资源](/ASIC2019资源)**
-    - 
+    - **[ASIC2020资源](/ASIC2020资源)**
 - **时间同步**
     - [GPS 时间同步](syncGPS.md)
     - [PTP 时间同步](syncPTP.md)
