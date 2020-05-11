@@ -5,6 +5,8 @@
     - **[商务文档](/商务文档)**
     - **[CAD结构文件@STEP](/CAD结构文件@STEP)**
     - **[Webslam免费在线建图](/Webslam免费在线建图)**
+    - [**全网信息观测**](https://io.oslidar.com/)
+    - **[技术支持](https://ouster.atlassian.net/servicedesk/customer/portal/8/group/22/create/86)**
     - **[友情链接](/友情链接)**
 
 - **网络相关**

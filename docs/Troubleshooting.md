@@ -30,12 +30,15 @@ Ouster 错误分为：
 
 如果错误代码给出的解决方案不能帮助您解决问题，请在诊断页面点击 ***Diagnostic Info*** 和 ***System Journal*** 下载诊断和日志文件发送给技术支持人员或上传到 [**Ouster 支持中心**](https://ouster.atlassian.net/servicedesk/customer/portal/8/group/22/create/86)。
 
-
 ## 利用TCP命令查看雷达警报
 
 也可以尝试[TCP命令](tcpCommand)的连入雷达，输入`get_alerts`查看雷达报警信息:
 
 ![tcp_alert](imgs/get_alert.png)
+
+## 提交Ticket
+
+遇到实在无法解决的问题，可以直接在此提交问题：https://ouster.atlassian.net/servicedesk/customer/portal/8/group/22/create/86
 
 ---
 [回首页](README)
