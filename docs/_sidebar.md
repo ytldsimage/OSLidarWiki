@@ -3,6 +3,7 @@
 - **[技术手册](/技术手册)**
 - **[商务文档](/商务文档)**
 - **[Webslam免费在线建图](/Webslam免费在线建图)**
+- **[友情链接](/友情链接)**
 - **快速开始**
     - [DHCP配置IP](DHCP.md)
     - [Ouster Visulaizer](OusterViz.md)
