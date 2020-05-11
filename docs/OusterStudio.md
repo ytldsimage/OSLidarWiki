@@ -15,9 +15,11 @@
 > [本土语言](https://ouster.atlassian.net/wiki/spaces/SUPPORT/pages/924090373?atlOrigin=eyJpIjoiNTk4MWFjMjk3MzgxNGRlNzg0NjI5Njc0OGY3ODkwN2IiLCJwIjoiYyJ9)：https://pan.baidu.com/s/1AGACyHllZ0PCjdhBGpn7Cw 提取码: h67q
 
 ---
-### Windows Studio
+### Windows Studio 注意事项：
 
-
+- https://drive.weixin.qq.com/s?k=AEYARQeBAAYdDiQZaXAE4AvQanABU
+- 关闭wifi及防火墙后，记得重启；注意IPV6，bonjoursdksetup见如下链接：
+- https://drive.weixin.qq.com/s?k=AEYARQeBAAY4QxoP0rAE4AvQanABU
 
 
 
