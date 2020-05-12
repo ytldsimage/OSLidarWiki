@@ -1,6 +1,6 @@
 # Ouster Studio
 
-> 由于与VLP同底层，所以在win下非常费力
+> 由于与VLP同底层，而OS Lidar 相对VLP增加了环境光数据及惯导数据，所以在win下兼容性不是很好
 >
 > 最新官方：https://www.paraview.org/ousterstudio/
 >
