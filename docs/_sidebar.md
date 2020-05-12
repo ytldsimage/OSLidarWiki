@@ -1,13 +1,13 @@
 - **基本介绍**
-    - **[背景场景](/背景场景)**
-    - **[产品亮点](/产品亮点)**
-    - **[技术手册](/技术手册)**
-    - **[商务文档](/商务文档)**
-    - **[CAD结构文件@STEP](/CAD结构文件@STEP)**
-    - **[Webslam免费在线建图](/Webslam免费在线建图)**
+    - **[背景场景](/Background)**
+    - **[产品亮点](/Highlights)**
+    - **[技术手册](/Catalog)**
+    - **[商务文档](/TC)**
+    - **[CAD结构文件@STEP](/CAD)**
+    - **[Webslam免费在线建图](/Webslam)**
     - **[全网信息观测](https://io.oslidar.com/)**
     - **[技术支持](https://ouster.atlassian.net/servicedesk/customer/portal/8/group/22/create/86)**
-    - **[友情链接](/友情链接)**
+    - **[友情链接](/links)**
 
 - **网络相关**
     - [配置动态IP](DHCP.md)
@@ -21,8 +21,8 @@
 - **数据体系**
     - [数据结构](datastructure.md)
     - [激光雷达坐标系（待更新）](coordinate.md)
-    - **[ASIC2019资源](/ASIC2019资源)**
-    - **[ASIC2020资源](/ASIC2020资源)**
+    - **[ASIC2019资源](/ASIC2019)**
+    - **[ASIC2020资源](/ASIC2020)**
 - **时间同步**
     - [GPS 时间同步](syncGPS.md)
     - [PTP 时间同步](syncPTP.md)

@@ -1,5 +1,7 @@
 # 友情链接
 
+> 此处留存常用项目信息链接，有问题请加微信：Kungfuas
+
 - ### 开源社区：
 
   - Autoware:       https://www.autoware.org/
