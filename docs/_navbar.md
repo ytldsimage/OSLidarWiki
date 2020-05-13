@@ -7,5 +7,5 @@
 - **[商务检索](https://io.oslidar.com/)**
 - **[商务文档](https://wiki.oslidar.com/doc)**
 - **[官网博客](https://ouster.com/blog/)**
-- [**新闻媒体**](https://ouster.com/press/)
+- 
 
