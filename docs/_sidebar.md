@@ -5,6 +5,7 @@
     - **[商务文档](/doc)**
     - **[CAD结构文件@STEP](/cad)**
     - **[全网信息观测](https://io.oslidar.com/)**
+    - **[官方新闻](https://ouster.com/press/)**
     - **[友情链接](/links)**
 - **网络相关**
     - [配置动态IP](dhcp.md)
