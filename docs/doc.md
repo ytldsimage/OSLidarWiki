@@ -7,3 +7,6 @@
 - 借阅协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYaD9U92tAE4AvQanABU
 - 销售协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYBnKItugAE4AvQanABU
 - 代理协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYaV3SX5MAE4AvQanABU
+- OSUS License:      https://drive.weixin.qq.com/s?k=AEYARQeBAAYBq1WAIbAE4AvQanABU
+- OSHK License:    https://drive.weixin.qq.com/s?k=AEYARQeBAAYGnF6o8CAE4AvQanABU
+

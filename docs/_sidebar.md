@@ -1,15 +1,15 @@
 - **基本介绍**
-    - **[背景场景](/Background)**
-    - **[产品亮点](/Highlights)**
-    - **[技术手册](/Catalog)**
-    - **[商务文档](/TC)**
-    - **[CAD结构文件@STEP](/CAD)**
+    - **[背景场景](/background)**
+    - **[产品亮点](/highlights)**
+    - **[技术手册](/catalog)**
+    - **[商务文档](/doc)**
+    - **[CAD结构文件@STEP](/cad)**
     - **[全网信息观测](https://io.oslidar.com/)**
     - **[友情链接](/links)**
 - **网络相关**
-    - [配置动态IP](DHCP.md)
+    - [配置动态IP](dhcp.md)
     - [设置静态IP](staticIP.md)
-    - [网络连接](Network.md)
+    - [网络连接](network.md)
     - [TCP命令配置雷达](tcpCommand.md)
 - **客户端**
     - [Ouster Visulaizer](OusterViz.md)
@@ -18,14 +18,14 @@
 - **数据体系**
     - [数据结构](datastructure.md)
     - [激光雷达坐标系](coordinate.md)
-    - **[ASIC2019资源](/ASIC2019)**
-    - **[ASIC2020资源](/ASIC2020)**
+    - **[ASIC2019资源](/asic2019)**
+    - **[ASIC2020资源](/asic2020)**
 - **时间同步**
     - [GPS 时间同步](syncGPS.md)
     - [PTP 时间同步](syncPTP.md)
-- [**常见故障排除**](Troubleshooting.md)
+- [**常见故障排除**](troubleshooting.md)
 - **常见问题**
-    - **[Webslam免费在线建图](/Webslam)**
+    - **[Webslam免费在线建图](/webslam)**
     - **[技术支持](https://ouster.atlassian.net/servicedesk/customer/portal/8/group/22/create/86)**
-    - **[FAQ](/FAQ)**
+    - **[FAQ](/faq)**
 
