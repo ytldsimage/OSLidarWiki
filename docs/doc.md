@@ -2,7 +2,7 @@
 
 > 此处留存常用商务文档的链接，有问题请加微信：Kungfuas
 
-- 报关税号：9031809090  (4%)，以及，目前有0%关税操作方式。
+- 报关税号：9031809090  (4%)，以及，目前有9031499090（20%-》0%）关税操作方式，但要在https://gszx.mof.gov.cn/ 注册申请豁免排除。
 - 保密协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYxxKqT6BAE4AvQanABU
 - 借阅协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYaD9U92tAE4AvQanABU
 - 销售协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYBnKItugAE4AvQanABU

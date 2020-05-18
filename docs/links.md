@@ -24,7 +24,9 @@
   - CSDN:          https://blog.csdn.net
   - 基金申请：      https://isisn.nsfc.gov.cn/egrantweb/
   - 基金查询：     [ https://www.letpub.com.cn/?page=grant&name=%E6%97%A0%E4%BA%BA%E6%9C%BA&person=&no=&company=&addcomment_s1=&addcomment_s2=&addcomment_s3=&addcomment_s4=&money1=&money2=&subcategory=&searchsubmit=true&submit.x=39&submit.y=12#fundlisttable](https://www.letpub.com.cn/?page=grant&name=无人机&person=&no=&company=&addcomment_s1=&addcomment_s2=&addcomment_s3=&addcomment_s4=&money1=&money2=&subcategory=&searchsubmit=true&submit.x=39&submit.y=12#fundlisttable)
-  - 香港创新科技署：https://www.itc.gov.hk/ch/index.html
+  - 香港创新科技署：
+    - https://www.itc.gov.hk/ch/index.html
+    - https://www.itc.gov.hk/gb/forms/apply_supplier.html
 
 - ### 展会：
 
