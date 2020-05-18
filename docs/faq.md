@@ -168,13 +168,13 @@
 
        ![0bd69b23-82e5-46e3-8d63-e44c74eaab79](faq.assets/0bd69b23-82e5-46e3-8d63-e44c74eaab79-9439917.gif)
 
-   28. 屏幕点云闪烁是什么原因？
+   30. 屏幕点云闪烁是什么原因？
 
    <video src="file:///Users/jacky.xu/Ouster-Docs-CN/docs/videos/1589272302572522.mp4" data-src="videos/1589272302572522.mp4" controlslist="nodownload" controls="controls" style="-webkit-user-select: none !important; box-sizing: border-box; max-width: 100%; display: block; margin: 0px auto; transform: translateZ(0px);"></video>
 
    ​	这是典型的udp package loss 丢包，请检查 Cable/Hub以及网卡是否是 **真千兆** ，一般更换之后就会消除
 
-   29. OS雷达的可靠性如何？
+   31. OS雷达的可靠性如何？
 
    ![7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c](faq.assets/7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c-9439917.gif)![06a0f4b1-3f1e-4892-a406-30b8dfa57da0](faq.assets/06a0f4b1-3f1e-4892-a406-30b8dfa57da0-9439917.gif)
 
