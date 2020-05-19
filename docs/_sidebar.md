@@ -24,6 +24,7 @@
 - **时间同步**
     - [GPS 时间同步](syncGPS.md)
     - [PTP 时间同步](syncPTP.md)
+    - **[内部晶振同步](/osc)**
 - [**常见故障排除**](troubleshooting.md)
 - **常见问题**
     - **[Webslam免费在线建图](/webslam)**
