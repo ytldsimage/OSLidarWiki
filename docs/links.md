@@ -39,6 +39,7 @@
   - 军队采购网：https://www.plap.cn/
   - 中国兵器：https://www.norincogroup-ebuy.com/
   - 兵器工程：[http://www.cse-bidding.com/zgbqcms/category/searchBulletinList.html?searchDate=&dates=300&word=%E9%9B%B7%E8%BE%BE&categoryId=88,89,90,91&page=1](http://www.cse-bidding.com/zgbqcms/category/searchBulletinList.html?searchDate=&dates=300&word=雷达&categoryId=88,89,90,91&page=1)
+  - 全军武备：http://www.weain.mil.cn/
   - 无人系统：https://www.wuasc.com/page227
   - 投招标网：http://www.infobidding.com/
   - 政府采购：http://www.mof.gov.cn/gkml/
