@@ -3,9 +3,15 @@
 > 此处留存常用商务文档的链接，有问题请加微信：Kungfuas
 
 - 报关税号：9031809090  (4%)，以及，目前有9031499090（20%-》0%）关税操作方式，但要在[财政部](https://gszx.mof.gov.cn/ )注册申请豁免排除。
-- 保密协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYxxKqT6BAE4AvQanABU
-- 借阅协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYaD9U92tAE4AvQanABU
-- 销售协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYBnKItugAE4AvQanABU
+- 保密协议：
+  - 英文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYxxKqT6BAE4AvQanABU
+  - 中文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYNVAzsWGAE4AvQanABU
+- 借阅协议：
+  - 协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYaD9U92tAE4AvQanABU
+  - 邮件：可索取邮件轻量版本 Jacky.Xu@Ouster.io
+- 销售协议：
+  - 英文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYBnKItugAE4AvQanABU
+  - 中文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYpwgNwZgAE4AvQanABU
 - 代理协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYaV3SX5MAE4AvQanABU
 - OSUS License:      
   - 英文版：

@@ -1,6 +1,8 @@
 # 友情链接
 
 > 此处留存常用项目信息链接，有问题请加微信：Kungfuas
+>
+> ![img](https://i2.wp.com/www.kungfuas.com/wp-content/uploads/2020/01/KungfuasWeChat.jpeg?resize=300%2C300&ssl=1)
 
 - ### 开源社区：
 
