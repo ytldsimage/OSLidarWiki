@@ -38,6 +38,8 @@
 - ### 投标招标：
 
   - 剑鱼：https://www.jianyu360.com/
+  - 马蜂：[https://www.mafengs.com/purchases/search?scout=%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE#](https://www.mafengs.com/purchases/search?scout=激光雷达#)
+  - 光速：[http://www.guangsuzb.com/search/list?keywords=%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE](http://www.guangsuzb.com/search/list?keywords=激光雷达)
   - 军队采购网：https://www.plap.cn/
   - 中国兵器：https://www.norincogroup-ebuy.com/
   - 兵器工程：[http://www.cse-bidding.com/zgbqcms/category/searchBulletinList.html?searchDate=&dates=300&word=%E9%9B%B7%E8%BE%BE&categoryId=88,89,90,91&page=1](http://www.cse-bidding.com/zgbqcms/category/searchBulletinList.html?searchDate=&dates=300&word=雷达&categoryId=88,89,90,91&page=1)
