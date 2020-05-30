@@ -1,5 +1,7 @@
 # Ouster Visualizer使用指南（无需ROS）
-> 适用 Ubunut 18.04 及 Ubuntu 16.04
+> 支持Mac，Win & Linux，最新的驱动程序及Viz 见 [ASIC2020](/asic2020)。
+>
+> 最新的驱动程序及Viz
 
 ## 准备
 
