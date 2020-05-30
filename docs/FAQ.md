@@ -136,11 +136,21 @@
 
        纵向FOV 可以变化，可以比如降低到50% 而维持线数不变，可以中间密两边疏，可以只水平向下，如果特别大的用户，我们还可以给他定制，参照此处：https://drive.weixin.qq.com/s?k=AEYARQeBAAYoGIegvHAE4AvQanABU
 
-   25. 什么是无线供电与POE+供电？
+   25. 何为盲区检测？
+
+       在最小检测距离（盲区）内，比如<25cm，告知0/1代表障碍物的有无，可作极限区域避障，或者污渍覆盖物的检测。
+
+       ![img](faq.assets/Q0Yh1u-tsjUUwkCx520eM5NeVz0IhLDpU0qwZzP21SgaOaTXohmEnJj1kM14c1xF6j1AMLr1oIMZ7BBP5LdG13sAz116B5phq7MzoG9VcoD1OafbPy8xiRcXYViMzDR-5eGkARXnvMc.png)
+
+   26. 何为锁相？
+
+       ![img](faq.assets/FHjrzP5mis-_1F7_17i0ynjnQWyrmp24heog_UB9iEBpAZ5QGqkepZZPRSObZpO165lh5TevxR90X80lyjxdxVwKJR-HzScmbFYTkyJlj7C4A4-6OrmhVq7v2SALD_ztyEQlK8KW08A.png)
+
+   27. 什么是无线供电与POE+供电？
 
        无线供电指的是相对于某些友商采用的滑环接触供电的使用寿命而言，我们是无接触供电，POE+指的是我们与google共享的一个专利设计ibox，可以直接网线同时作为数据传输与供电。
 
-   26. 黑匣子有什么用？
+   28. 黑匣子有什么用？
 
        记录从出厂以来的全部操作，用于：
 
@@ -148,15 +158,15 @@
        - 最近一次的信息采用json明文记录，历史信息bin文件加密，如果遇到问题可以第一时间回传，远程实时判定问题并提供意见
        - 如果确认责任归属于OS，则OS可以提前安排返修或退换，无需等待太长周期
 
-   27. 目前相机是额外一套cmos相机么，最高像素是多少，是彩色相机么？
+   29. 目前相机是额外一套cmos相机么，最高像素是多少，是彩色相机么？
 
        并非额外外设，是spads复用，自身不发射，全部来自环境光的灰度信息，最高像素2048*N，N为线数，是灰度相机，但是3帧相机数据是原生时空对齐的。
 
-   28. 目前是多次回波方案么？
+   30. 目前是多次回波方案么？
 
        目前选择的是最强回波方案，我们计划在Q4加入多次回波
 
-   29. 目前128线 2048*10hz为例，每秒钟的总点云数目是多少，计入IMU数据后，数据量是多少，用bag或pcap格式？
+   31. 目前128线 2048*10hz为例，每秒钟的总点云数目是多少，计入IMU数据后，数据量是多少，用bag或pcap格式？
 
        - IMU @100HZ数据占比非常低，约0.2%，设置`udp_port_imu` to `"”` 就可关闭该输出；
 
@@ -171,11 +181,11 @@
 
          ![image-20200519092101686](faq.assets/image-20200519092101686.png)
 
-   30. 有没有方法在不断电的情况下，使雷达处于省电待机状态？
+   32. 有没有方法在不断电的情况下，使雷达处于省电待机状态？
 
        目前没有类似standby指令，除非初始化状态下可以发一个TCP让暂不击发，但是一旦击发后除非断电无法进入热待机，只能通过降低帧率与增加定时//定角发射间隔实现。
 
-   31. 脉冲dtof，脉冲itof的区别是什么？
+   33. 脉冲dtof，脉冲itof的区别是什么？
 
        - itof本质上是测相移：
 
@@ -189,7 +199,7 @@
 
        - dtof 本质是直接TDC计算时间
 
-   32. 三帧相机的效果是？
+   34. 三帧相机的效果是？
 
        ![1c2dbd4c-3fc7-42e5-96fa-f3c6b50825c9](faq.assets/1c2dbd4c-3fc7-42e5-96fa-f3c6b50825c9-9439917.png)
 
@@ -201,7 +211,7 @@
 
        ![0bd69b23-82e5-46e3-8d63-e44c74eaab79](faq.assets/0bd69b23-82e5-46e3-8d63-e44c74eaab79-9439917.gif)
 
-   33. 屏幕点云闪烁是什么原因？
+   35. 屏幕点云闪烁是什么原因？
 
    <video src="file:///Users/jacky.xu/Ouster-Docs-CN/docs/videos/1589272302572522.mp4" data-src="videos/1589272302572522.mp4" controlslist="nodownload" controls="controls" style="-webkit-user-select: none !important; box-sizing: border-box; max-width: 100%; display: block; margin: 0px auto; transform: translateZ(0px);"></video>
 

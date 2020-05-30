@@ -9,4 +9,6 @@ CAD: https://ouster.box.com/s/myu8t5ji259eo0bvh3blxic8no046x7x
 - OS2 CAD: http://data.ouster.io/downloads/OS2-lidar-sensor-externals.STEP
 - 粗线：https://drive.weixin.qq.com/s?k=AEYARQeBAAYduGBBCGAE4AvQanABU
 - 细线：https://drive.weixin.qq.com/s?k=AEYARQeBAAYqIIA6dfAE4AvQanABU
+- IBOX: https://drive.weixin.qq.com/s?k=AEYARQeBAAY01nz8hFAE4AvQanABU
+- OS1 底板： https://drive.weixin.qq.com/s?k=AEYARQeBAAYfreJcWhAE4AvQanABU
 - 双重坐标系：https://drive.weixin.qq.com/s?k=AEYARQeBAAYdJsl8szAE4AvQanABU
