@@ -217,6 +217,10 @@
 
    ​	这是典型的udp package loss 丢包，请检查 Cable/Hub以及网卡是否是 **真千兆** ，一般更换之后就会消除
 
+   36. 雷达的false negative抑制情况如何？
+
+       ![ANTIGLARE](faq.assets/ANTIGLARE.gif)
+
    32. OS雷达的可靠性如何？
 
    ![7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c](faq.assets/7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c-9439917.gif)![06a0f4b1-3f1e-4892-a406-30b8dfa57da0](faq.assets/06a0f4b1-3f1e-4892-a406-30b8dfa57da0-9439917.gif)
