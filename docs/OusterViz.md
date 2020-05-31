@@ -1,7 +1,7 @@
 # Ouster Visualizer使用指南（无需ROS）
 > 支持Mac，Win & Linux，最新的驱动程序及Viz 见 [ASIC2020](/asic2020)。
 >
-> 最新的驱动程序及Viz
+> 最新的驱动程序及Viz，从上到下3帧图依次是：range， intensity， ambient 3帧相机的实时数据。
 
 ## 准备
 
