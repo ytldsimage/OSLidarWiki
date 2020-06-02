@@ -2,6 +2,7 @@
 
 > Ouster 激光雷达使用以太网进行通讯，利用 UDP 进行激光点云和 IMU 的数据传输，利用 TCP 对雷达进行状态查询和配置，也提供 HTTP API （详情见用户手册）可以查询雷达和对一些功能进行设置。
 >
+> 详细文档见此处：https://drive.weixin.qq.com/s?k=AEYARQeBAAYNEkt08BAE4AvQanABU
 
 ## 查找雷达 IPv4 地址
 
