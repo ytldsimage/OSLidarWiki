@@ -159,76 +159,79 @@
        - 保修期追溯
        - 最近一次的信息采用json明文记录，历史信息bin文件加密，如果遇到问题可以第一时间回传，远程实时判定问题并提供意见
        - 如果确认责任归属于OS，则OS可以提前安排返修或退换，无需等待太长周期
-
-   29. 目前相机是额外一套cmos相机么，最高像素是多少，是彩色相机么？
-
-       并非额外外设，是spads复用，自身不发射，全部来自环境光的灰度信息，最高像素2048*N，N为线数，是灰度相机，但是3帧相机数据是原生时空对齐的。
-
-   30. 目前是多次回波方案么？
-
-       目前选择的是最强回波方案，我们计划在Q4加入多次回波
-
-   31. 目前128线 2048*10hz为例，每秒钟的总点云数目是多少，计入IMU数据后，数据量是多少，用bag或pcap格式？
-
-       - IMU @100HZ数据占比非常低，约0.2%，设置`udp_port_imu` to `"”` 就可关闭该输出；
-
+    - 浏览器访问http://OS(1)-SN.local或IP，可以下载到对应的日志文件，也可以用如下命令：
+         - Curl command for MetricsDb: `curl <sensor_ip>/api/v1/system/metricsdb/dump > dump`
+      - Curl command for Journal: `curl <sensor_ip>/api/v1/system/journal/dump > journal.bin`
+   
+29. 目前相机是额外一套cmos相机么，最高像素是多少，是彩色相机么？
+   
+    并非额外外设，是spads复用，自身不发射，全部来自环境光的灰度信息，最高像素2048*N，N为线数，是灰度相机，但是3帧相机数据是原生时空对齐的。
+   
+30. 目前是多次回波方案么？
+   
+    目前选择的是最强回波方案，我们计划在Q4加入多次回波
+   
+31. 目前128线 2048*10hz为例，每秒钟的总点云数目是多少，计入IMU数据后，数据量是多少，用bag或pcap格式？
+   
+    - IMU @100HZ数据占比非常低，约0.2%，设置`udp_port_imu` to `"”` 就可关闭该输出；
+   
        - 不同线数的激光雷达的单UDP包大小为：
-
+   
          - 各系列16线激光雷达每个UDP包大小为3392bytes
-         - 各系列32线激光雷达每个UDP包大小为6464bytes
+      - 各系列32线激光雷达每个UDP包大小为6464bytes
          - 各系列64线激光雷达每个UDP包大小为12608bytes
-         - 各系列128线激光雷达每个UDP包大小为24896bytes
-
-         每16个方位角的数据组成一个UDP包发送出去，如果以2048x10的发射率，意味着每秒发射10fps*2048/16=1280个UDP包，以此换算。
-
-         ![image-20200519092101686](faq.assets/image-20200519092101686.png)
-
-   32. 有没有方法在不断电的情况下，使雷达处于省电待机状态？
-
-       目前没有类似standby指令，除非初始化状态下可以发一个TCP让暂不击发，但是一旦击发后除非断电无法进入热待机，只能通过降低帧率与增加定时//定角发射间隔实现。
-
-   33. 默认线材是多长的？
-
-       默认配5m ibox straight light cable，需要特别长度，不同角度connector，以及pigtail需要特别提出。
-
-   34. 脉冲dtof，脉冲itof的区别是什么？
-
-       - itof本质上是测相移：
-
-       ![image-20200526123527033](faq.assets/image-20200526123527033.png)
-
-       ![image-20200526123611446](faq.assets/image-20200526123611446.png)
-
-       ![image-20200526123646512](faq.assets/image-20200526123646512.png)
-
-       ![image-20200526123702816](faq.assets/image-20200526123702816.png)
-
-       - dtof 本质是直接TDC计算时间
-
-   35. 三帧相机的效果是？
-
-       ![1c2dbd4c-3fc7-42e5-96fa-f3c6b50825c9](faq.assets/1c2dbd4c-3fc7-42e5-96fa-f3c6b50825c9-9439917.png)
-
-       ![c6bacfc1-a4af-4673-9d7a-897755ebbe88](faq.assets/c6bacfc1-a4af-4673-9d7a-897755ebbe88-9439917.png)
-
-       
-
-       ![89264681-a628-4e20-b2bf-ed2fa8837165](faq.assets/89264681-a628-4e20-b2bf-ed2fa8837165-9439917.gif)
-
-       ![0bd69b23-82e5-46e3-8d63-e44c74eaab79](faq.assets/0bd69b23-82e5-46e3-8d63-e44c74eaab79-9439917.gif)
-
-   36. 屏幕点云闪烁是什么原因？
-
-   <video src="file:///Users/jacky.xu/Ouster-Docs-CN/docs/videos/1589272302572522.mp4" data-src="videos/1589272302572522.mp4" controlslist="nodownload" controls="controls" style="-webkit-user-select: none !important; box-sizing: border-box; max-width: 100%; display: block; margin: 0px auto; transform: translateZ(0px);"></video>
-
-   ​	这是典型的udp package loss 丢包，请检查 Cable/Hub以及网卡是否是 **真千兆** ，一般更换之后就会消除
-
-   36. 雷达的false negative抑制情况如何？
-
-       ![ANTIGLARE](faq.assets/ANTIGLARE.gif)
-
-   32. OS雷达的可靠性如何？
-
+      - 各系列128线激光雷达每个UDP包大小为24896bytes
+   
+      每16个方位角的数据组成一个UDP包发送出去，如果以2048x10的发射率，意味着每秒发射10fps*2048/16=1280个UDP包，以此换算。
+   
+      ![image-20200519092101686](faq.assets/image-20200519092101686.png)
+   
+32. 有没有方法在不断电的情况下，使雷达处于省电待机状态？
+   
+    目前没有类似standby指令，除非初始化状态下可以发一个TCP让暂不击发，但是一旦击发后除非断电无法进入热待机，只能通过降低帧率与增加定时//定角发射间隔实现。
+   
+33. 默认线材是多长的？
+   
+    默认配5m ibox straight light cable，需要特别长度，不同角度connector，以及pigtail需要特别提出。
+   
+34. 脉冲dtof，脉冲itof的区别是什么？
+   
+    - itof本质上是测相移：
+   
+    ![image-20200526123527033](faq.assets/image-20200526123527033.png)
+   
+    ![image-20200526123611446](faq.assets/image-20200526123611446.png)
+   
+    ![image-20200526123646512](faq.assets/image-20200526123646512.png)
+   
+    ![image-20200526123702816](faq.assets/image-20200526123702816.png)
+   
+    - dtof 本质是直接TDC计算时间
+   
+35. 三帧相机的效果是？
+   
+    ![1c2dbd4c-3fc7-42e5-96fa-f3c6b50825c9](faq.assets/1c2dbd4c-3fc7-42e5-96fa-f3c6b50825c9-9439917.png)
+   
+    ![c6bacfc1-a4af-4673-9d7a-897755ebbe88](faq.assets/c6bacfc1-a4af-4673-9d7a-897755ebbe88-9439917.png)
+   
+    
+   
+    ![89264681-a628-4e20-b2bf-ed2fa8837165](faq.assets/89264681-a628-4e20-b2bf-ed2fa8837165-9439917.gif)
+   
+    ![0bd69b23-82e5-46e3-8d63-e44c74eaab79](faq.assets/0bd69b23-82e5-46e3-8d63-e44c74eaab79-9439917.gif)
+   
+36. 屏幕点云闪烁是什么原因？
+   
+<video src="file:///Users/jacky.xu/Ouster-Docs-CN/docs/videos/1589272302572522.mp4" data-src="videos/1589272302572522.mp4" controlslist="nodownload" controls="controls" style="-webkit-user-select: none !important; box-sizing: border-box; max-width: 100%; display: block; margin: 0px auto; transform: translateZ(0px);"></video>
+   
+​	这是典型的udp package loss 丢包，请检查 Cable/Hub以及网卡是否是 **真千兆** ，一般更换之后就会消除
+   
+36. 雷达的false negative抑制情况如何？
+   
+    ![ANTIGLARE](faq.assets/ANTIGLARE.gif)
+   
+32. OS雷达的可靠性如何？
+   
    ![7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c](faq.assets/7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c-9439917.gif)![06a0f4b1-3f1e-4892-a406-30b8dfa57da0](faq.assets/06a0f4b1-3f1e-4892-a406-30b8dfa57da0-9439917.gif)
-
+   
    ![27a67ef2-516a-41c2-83d6-9c23721c3420](faq.assets/27a67ef2-516a-41c2-83d6-9c23721c3420-9439917.gif)![a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2](faq.assets/a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2-9439917.gif)
