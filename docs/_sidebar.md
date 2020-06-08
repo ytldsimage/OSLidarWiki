@@ -13,7 +13,7 @@
     - [网络连接](network.md)
     - [TCP命令配置雷达](tcpCommand.md)
 - **客户端**
-    - [Ouster Visulaizer](OusterViz.md)
+    - [Ouster Visualiser](OusterViz.md)
     - [Ouster ROS](OusterROS.md)
     - **[Ouster Studio](/OusterStudio)**
 - **数据体系**
