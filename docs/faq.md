@@ -116,7 +116,7 @@
        - 通常不会，我们雷达具备自保护机制，一旦过热会尝试降低发射率与帧率，如果严重过热，会断电自保护，雷达本身不会损坏，我们也提供了一个TCP命令来查询目前温度状态。
        - 我们本身的热鳍结构，是一个高能效热泵，可以将大量热高效传导到表面，所以感觉有时连续工作可能发烫，但多数时候这个并不影响正常工作，哪怕是最差情况下环境温度过高，我们内部有上述自动热保护机制。
        - 相对发热底层原因其实是因为我们内部芯片化集成度更高的高配像素密度，而且由于是全像素并发（同时发同时收而不是挨个串发)，所以我们的发热会相对高一些；但说实话，环境温度达到60℃以上的环境应该不多，这种天气没人敢出来，香港近十年最高气温40度，亚热带气候下已经不鼓励出门，有中暑死亡案例。
-       - 如果真的类似工作环境，且不可规避，短期建议遮阳避免直晒，以及建议增加主动通风或降温，有条件的话，用半导体制冷（温差生电压，电压生温差)，同时马上低温区会在q2实现-45度，顺利的话，今年高温区实现60℃以上，目标实现车规85℃以上（待定，因为仍然在封城。。）
+       - 如果真的类似工作环境，且不可规避，短期建议遮阳避免直晒，以及建议增加主动通风或降温，有条件的话，用半导体制冷（温差生电压，电压生温差)，同时马上低温区会在q2实现-40度，顺利的话，今年高温区实现60℃以上，目标实现车规85℃以上（待定，因为仍然在封城。。）
 
    21. 什么叫时空锁定机制，有什么价值？
 
@@ -138,21 +138,25 @@
 
        纵向FOV 可以变化，可以比如降低到50% 而维持线数不变，可以中间密两边疏，可以只水平向下，如果特别大的用户，我们还可以给他定制，参照此处：https://drive.weixin.qq.com/s?k=AEYARQeBAAYoGIegvHAE4AvQanABU
 
-   25. 何为盲区检测？
+   25. OS的PPS对齐是绝对相位对齐，还是相对的频率对齐？
+
+       PPS对齐有相位对齐与频率对齐两种，前者是绝对对齐，以上升沿为标记，后者不要求频率或相位都一致，只需要其保持固定的或成比例的差别。对OS而言，是PPS上升沿对齐，绝对相位对齐。
+
+   26. 何为盲区检测？
 
        在最小检测距离（盲区）内，比如<25cm，告知0/1代表障碍物的有无，可作极限区域避障，或者污渍覆盖物的检测。
 
        ![img](faq.assets/Q0Yh1u-tsjUUwkCx520eM5NeVz0IhLDpU0qwZzP21SgaOaTXohmEnJj1kM14c1xF6j1AMLr1oIMZ7BBP5LdG13sAz116B5phq7MzoG9VcoD1OafbPy8xiRcXYViMzDR-5eGkARXnvMc.png)
 
-   26. 何为锁相？
+   27. 何为锁相？
 
        ![img](faq.assets/FHjrzP5mis-_1F7_17i0ynjnQWyrmp24heog_UB9iEBpAZ5QGqkepZZPRSObZpO165lh5TevxR90X80lyjxdxVwKJR-HzScmbFYTkyJlj7C4A4-6OrmhVq7v2SALD_ztyEQlK8KW08A.png)
 
-   27. 什么是无线供电与POE+供电？
+   28. 什么是无线供电与POE+供电？
 
        无线供电指的是相对于某些友商采用的滑环接触供电的使用寿命而言，我们是无接触供电，POE+指的是我们与google共享的一个专利设计ibox，可以直接网线同时作为数据传输与供电。
 
-   28. 黑匣子有什么用？
+   29. 黑匣子有什么用？
 
        记录从出厂以来的全部操作，用于：
 
@@ -162,7 +166,7 @@
     - 浏览器访问http://OS(1)-SN.local或IP，可以下载到对应的日志文件，也可以用如下命令：
          - Curl command for MetricsDb: `curl <sensor_ip>/api/v1/system/metricsdb/dump > dump`
       - Curl command for Journal: `curl <sensor_ip>/api/v1/system/journal/dump > journal.bin`
-   
+
 29. 目前相机是额外一套cmos相机么，最高像素是多少，是彩色相机么？
    
     并非额外外设，是spads复用，自身不发射，全部来自环境光的灰度信息，最高像素2048*N，N为线数，是灰度相机，但是3帧相机数据是原生时空对齐的。
@@ -174,16 +178,16 @@
 31. 目前128线 2048*10hz为例，每秒钟的总点云数目是多少，计入IMU数据后，数据量是多少，用bag或pcap格式？
    
     - IMU @100HZ数据占比非常低，约0.2%，设置`udp_port_imu` to `"”` 就可关闭该输出；
-   
+     
        - 不同线数的激光雷达的单UDP包大小为：
-   
+      
          - 各系列16线激光雷达每个UDP包大小为3392bytes
       - 各系列32线激光雷达每个UDP包大小为6464bytes
          - 各系列64线激光雷达每个UDP包大小为12608bytes
       - 各系列128线激光雷达每个UDP包大小为24896bytes
-   
+     
       每16个方位角的数据组成一个UDP包发送出去，如果以2048x10的发射率，意味着每秒发射10fps*2048/16=1280个UDP包，以此换算。
-   
+     
       ![image-20200519092101686](faq.assets/image-20200519092101686.png)
    
 32. 有没有方法在不断电的情况下，使雷达处于省电待机状态？
@@ -197,16 +201,17 @@
 34. 脉冲dtof，脉冲itof的区别是什么？
    
     - itof本质上是测相移：
-   
-    ![image-20200526123527033](faq.assets/image-20200526123527033.png)
-   
-    ![image-20200526123611446](faq.assets/image-20200526123611446.png)
-   
-    ![image-20200526123646512](faq.assets/image-20200526123646512.png)
-   
-    ![image-20200526123702816](faq.assets/image-20200526123702816.png)
-   
-    - dtof 本质是直接TDC计算时间
+     
+    
+   ![image-20200526123527033](faq.assets/image-20200526123527033.png)
+    
+   ![image-20200526123611446](faq.assets/image-20200526123611446.png)
+    
+   ![image-20200526123646512](faq.assets/image-20200526123646512.png)
+    
+   ![image-20200526123702816](faq.assets/image-20200526123702816.png)
+    
+   - dtof 本质是直接TDC计算时间
    
 35. 三帧相机的效果是？
    
@@ -221,17 +226,17 @@
     ![0bd69b23-82e5-46e3-8d63-e44c74eaab79](faq.assets/0bd69b23-82e5-46e3-8d63-e44c74eaab79-9439917.gif)
    
 36. 屏幕点云闪烁是什么原因？
-   
+
 <video src="file:///Users/jacky.xu/Ouster-Docs-CN/docs/videos/1589272302572522.mp4" data-src="videos/1589272302572522.mp4" controlslist="nodownload" controls="controls" style="-webkit-user-select: none !important; box-sizing: border-box; max-width: 100%; display: block; margin: 0px auto; transform: translateZ(0px);"></video>
-   
+
 ​	这是典型的udp package loss 丢包，请检查 Cable/Hub以及网卡是否是 **真千兆** ，一般更换之后就会消除
-   
+
 36. 雷达的false negative抑制情况如何？
    
     ![ANTIGLARE](faq.assets/ANTIGLARE.gif)
    
 32. OS雷达的可靠性如何？
-   
+
    ![7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c](faq.assets/7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c-9439917.gif)![06a0f4b1-3f1e-4892-a406-30b8dfa57da0](faq.assets/06a0f4b1-3f1e-4892-a406-30b8dfa57da0-9439917.gif)
-   
+
    ![27a67ef2-516a-41c2-83d6-9c23721c3420](faq.assets/27a67ef2-516a-41c2-83d6-9c23721c3420-9439917.gif)![a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2](faq.assets/a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2-9439917.gif)
