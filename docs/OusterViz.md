@@ -2,6 +2,8 @@
 > 支持Mac，Win & Linux，最新的驱动程序及Viz 见 [ASIC2020](/asic2020)。
 >
 > 最新的驱动程序及Viz，从上到下3帧图依次是：range， intensity， ambient 3帧相机的实时数据。
+>
+> 以下内容仅仅适配fw1.13，对于fw1.14 请阅读对应文件夹下的[readme](/OSVizB10)文档，注意路径及依赖需要提前设置。
 
 ## 准备
 
