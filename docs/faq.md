@@ -142,21 +142,25 @@
 
        PPS对齐有相位对齐与频率对齐两种，前者是绝对对齐，以上升沿为标记，后者不要求频率或相位都一致，只需要其保持固定的或成比例的差别。对OS而言，是PPS上升沿对齐，绝对相位对齐。
 
-   26. 何为盲区检测？
+   26. 雷达回波强度与雷达反射率数据的取值范围是多少？
+
+       二者的赋值空间都是unsigned int16，最大赋值空间是0-2^16-1, 但目前实际使用的是13位。
+
+   27. 何为盲区检测？
 
        在最小检测距离（盲区）内，比如<25cm，告知0/1代表障碍物的有无，可作极限区域避障，或者污渍覆盖物的检测。
 
        ![img](faq.assets/Q0Yh1u-tsjUUwkCx520eM5NeVz0IhLDpU0qwZzP21SgaOaTXohmEnJj1kM14c1xF6j1AMLr1oIMZ7BBP5LdG13sAz116B5phq7MzoG9VcoD1OafbPy8xiRcXYViMzDR-5eGkARXnvMc.png)
 
-   27. 何为锁相？
+   28. 何为锁相？
 
        ![img](faq.assets/FHjrzP5mis-_1F7_17i0ynjnQWyrmp24heog_UB9iEBpAZ5QGqkepZZPRSObZpO165lh5TevxR90X80lyjxdxVwKJR-HzScmbFYTkyJlj7C4A4-6OrmhVq7v2SALD_ztyEQlK8KW08A.png)
 
-   28. 什么是无线供电与POE+供电？
+   29. 什么是无线供电与POE+供电？
 
        无线供电指的是相对于某些友商采用的滑环接触供电的使用寿命而言，我们是无接触供电，POE+指的是我们与google共享的一个专利设计ibox，可以直接网线同时作为数据传输与供电。
 
-   29. 黑匣子有什么用？
+   30. 黑匣子有什么用？
 
        记录从出厂以来的全部操作，用于：
 
@@ -178,16 +182,16 @@
 31. 目前128线 2048*10hz为例，每秒钟的总点云数目是多少，计入IMU数据后，数据量是多少，用bag或pcap格式？
    
     - IMU @100HZ数据占比非常低，约0.2%，设置`udp_port_imu` to `"”` 就可关闭该输出；
-     
+    
        - 不同线数的激光雷达的单UDP包大小为：
-      
+        
          - 各系列16线激光雷达每个UDP包大小为3392bytes
       - 各系列32线激光雷达每个UDP包大小为6464bytes
          - 各系列64线激光雷达每个UDP包大小为12608bytes
       - 各系列128线激光雷达每个UDP包大小为24896bytes
-     
+    
       每16个方位角的数据组成一个UDP包发送出去，如果以2048x10的发射率，意味着每秒发射10fps*2048/16=1280个UDP包，以此换算。
-     
+    
       ![image-20200519092101686](faq.assets/image-20200519092101686.png)
    
 32. 有没有方法在不断电的情况下，使雷达处于省电待机状态？
@@ -201,8 +205,9 @@
 34. 脉冲dtof，脉冲itof的区别是什么？
    
     - itof本质上是测相移：
-     
     
+    
+
    ![image-20200526123527033](faq.assets/image-20200526123527033.png)
     
    ![image-20200526123611446](faq.assets/image-20200526123611446.png)
@@ -212,7 +217,7 @@
    ![image-20200526123702816](faq.assets/image-20200526123702816.png)
     
    - dtof 本质是直接TDC计算时间
-   
+
 35. 三帧相机的效果是？
    
     ![1c2dbd4c-3fc7-42e5-96fa-f3c6b50825c9](faq.assets/1c2dbd4c-3fc7-42e5-96fa-f3c6b50825c9-9439917.png)
