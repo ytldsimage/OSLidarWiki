@@ -13,6 +13,7 @@
   - 英文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYBnKItugAE4AvQanABU
   - 中文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYpwgNwZgAE4AvQanABU
 - 代理协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYaV3SX5MAE4AvQanABU
+- 客户注册：https://drive.weixin.qq.com/s?k=AEYARQeBAAY0szD7qOAE4AvQanABU
 - OSUS License:      
   - 英文版：
     - 注册书：https://drive.weixin.qq.com/s?k=AEYARQeBAAYGeZ96aRAE4AvQanABU
