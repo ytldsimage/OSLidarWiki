@@ -5,7 +5,7 @@
 1. ### 建图网址：
 
    -  https://webslam.ouster.dev/   ===》[可转octomap](http://paulbourke.net/dataformats/ply/)
-   -  https://www.danielgm.net/cc/  ===》数据格式转换
+   -  https://www.danielgm.net/cc/  ===》[数据格式转换](https://pcap2bag.lidar.plus)
       - kaarta cloud or the pcl_ros package + CloudCompare
       - web-slam + CloudCompare on the resulting PLY output
 
