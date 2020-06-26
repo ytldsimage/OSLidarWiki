@@ -237,25 +237,25 @@
 
 
 
-​	![89264681-a628-4e20-b2bf-ed2fa8837165](faq.assets/89264681-a628-4e20-b2bf-ed2fa8837165-9439917.gif)
+​		![89264681-a628-4e20-b2bf-ed2fa8837165](faq.assets/89264681-a628-4e20-b2bf-ed2fa8837165-9439917.gif)
 
-​	![0bd69b23-82e5-46e3-8d63-e44c74eaab79](faq.assets/0bd69b23-82e5-46e3-8d63-e44c74eaab79-9439917.gif)
+​		![0bd69b23-82e5-46e3-8d63-e44c74eaab79](faq.assets/0bd69b23-82e5-46e3-8d63-e44c74eaab79-9439917.gif)
 
-38. 雷达的false negative抑制情况如何？
+39. 雷达的false negative抑制情况如何？
 
     ![ANTIGLARE](faq.assets/ANTIGLARE.gif)
 
-39. OS雷达的可靠性如何？
+40. OS雷达的可靠性如何？
 
        ![7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c](faq.assets/7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c-9439917.gif)
 
-​	![06a0f4b1-3f1e-4892-a406-30b8dfa57da0](faq.assets/06a0f4b1-3f1e-4892-a406-30b8dfa57da0-9439917.gif)
+    ​	![06a0f4b1-3f1e-4892-a406-30b8dfa57da0](faq.assets/06a0f4b1-3f1e-4892-a406-30b8dfa57da0-9439917.gif)
 
-   	![27a67ef2-516a-41c2-83d6-9c23721c3420](faq.assets/27a67ef2-516a-41c2-83d6-9c23721c3420-9439917.gif)
+       	![27a67ef2-516a-41c2-83d6-9c23721c3420](faq.assets/27a67ef2-516a-41c2-83d6-9c23721c3420-9439917.gif)
 
-​		![a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2](faq.assets/a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2-9439917.gif)
+    ​		![a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2](faq.assets/a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2-9439917.gif)
 
-40. 屏幕点云闪烁是什么原因？
+41. 屏幕点云闪烁是什么原因？
 
   <video src="file:///Users/jacky.xu/Ouster-Docs-CN/docs/videos/1589272302572522.mp4" data-src="videos/1589272302572522.mp4" controlslist="nodownload" controls="controls" style="-webkit-user-select: none !important; box-sizing: border-box; max-width: 100%; display: block; margin: 0px auto; transform: translateZ(0px);"></video>
 
