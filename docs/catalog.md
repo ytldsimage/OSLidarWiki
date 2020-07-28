@@ -4,7 +4,7 @@
 
 - ### Datasheet:
 
-  - 对比：http://data.ouster.io/downloads/Ouster-lidar-sensor-guide.pdf
+  - 对比：https://drive.weixin.qq.com/s?k=AEYARQeBAAYu6ZIGnhAE4AvQanABU
   - 黄页：https://drive.weixin.qq.com/s?k=AEYARQeBAAY84SUnn8AE4AvQanABU
 
 - ### OS1: 120m, 360°X(33.2°/45°)FOV, 0.35º~2.8º V-Resolution for ASIC2020, 0.53º ~ 2.2º V-Resolution for ASIC2019
