@@ -23,5 +23,7 @@
     - 注册书：https://drive.weixin.qq.com/s?k=AEYARQeBAAYEVAz0kuAE4AvQanABU
     - 附件：https://drive.weixin.qq.com/s?k=AEYARQeBAAY5W3Zb10AE4AvQanABU
 - OSHK License:    https://drive.weixin.qq.com/s?k=AEYARQeBAAYGnF6o8CAE4AvQanABU
-- 不受控声明：https://drive.weixin.qq.com/s?k=AEYARQeBAAYVX1mppPAE4AvQanABU
+- 不受控声明：
+  - ECCN: EAR99
+  - https://drive.weixin.qq.com/s?k=AEYARQeBAAYVX1mppPAE4AvQanABU
 
