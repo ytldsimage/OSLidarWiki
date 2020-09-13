@@ -1,29 +1,32 @@
 # Ouster ROS 完整教程
 > 适用 Ubunut 18.04 及 Ubuntu 16.04
 >
-> 以下内容仅仅适配fw1.13，对于fw1.14 请阅读对应文件夹下的[readme](/OSVizB10)文档，注意路径及依赖需要提前设置。
+> 一键脚本如下：
 >
 > ```sh
->  #!/bin/bash
->  set -x
->  
->  
->  #如果没有安装ROS
->  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' && sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654 && sudo apt-get update && sudo apt install -y ros-melodic-desktop ros-melodic-pcl-ros ros-melodic-tf2-geometry-msgs && echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc && source ~/.bashrc && sudo apt install -y python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential && sudo rosdep init && rosdep update
->   
->    
->  
->  
->  #如果已经安装ROS
->  sudo dpkg --configure -a &&  sudo apt update -y &&  sudo apt upgrade -y && sudo apt autoremove -y && sudo apt --fix-broken -y install && sudo apt-get update --fix-missing && sudo apt-get -y install unzip   git   cmake build-essential libglfw3-dev libglew-dev libeigen3-dev libjsoncpp-dev libtclap-dev && git clone https://github.com/ytldsimage/ouster_example && cd ~/ouster_example/ouster_client/ && sudo mkdir build && cd build && sudo cmake .. &&  sudo make && cd ~ && export CMAKE_PREFIX_PATH=~/ouster_example/ && cd ~/ouster_example/ouster_viz && sudo mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && sudo make && source /opt/ros/*/setup.bash && cd ~ && sudo mkdir -p myOSROS/src && cd myOSROS && ln -s ~/ouster_example ./src/ && catkin_make -DCMAKE_BUILD_TYPE=Release   #Ubuntu 18.04， ROS1已安装，下载路径与安装路径都在当前用户目录下 
+> #!/bin/bash
+> set -x
+> 
+> 
+> #如果没有安装ROS
+> sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' && sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654 && sudo apt-get update && sudo apt install -y ros-melodic-desktop ros-melodic-pcl-ros ros-melodic-tf2-geometry-msgs && echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc && source ~/.bashrc && sudo apt install -y python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential && sudo rosdep init && rosdep update
+> 
+> 
+> 
+> 
+> #如果已经安装ROS
+> sudo dpkg --configure -a &&  sudo apt update -y &&  sudo apt upgrade -y && sudo apt autoremove -y && sudo apt --fix-broken -y install && sudo apt-get update --fix-missing && sudo apt-get -y install unzip   git   cmake build-essential libglfw3-dev libglew-dev libeigen3-dev libjsoncpp-dev libtclap-dev && git clone https://github.com/ytldsimage/ouster_example && cd ~/ouster_example/ouster_client/ && sudo mkdir build && cd build && sudo cmake .. &&  sudo make && cd ~ && export CMAKE_PREFIX_PATH=~/ouster_example/ && cd ~/ouster_example/ouster_viz && sudo mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && sudo make && source /opt/ros/*/setup.bash && cd ~ && sudo mkdir -p myOSROS/src && cd myOSROS && ln -s ~/ouster_example ./src/ && catkin_make -DCMAKE_BUILD_TYPE=Release   #Ubuntu 18.04， ROS1已安装，下载路径与安装路径都在当前用户目录下 
 > ```
 >
-> 
+> 以下内容仅仅适配fw1.13，对于fw1.14 请阅读对应文件夹下的[readme](/OSVizB10)文档，注意路径及依赖需要提前设置，安装ROS驱动步骤：
+>
+> 1. 进入ouster_example -> ouster_client文件夹，打开里面的README.md, 按照里面的步骤build好client;
+> 2. 进入ouster_example -> ouster_viz文件夹，打开该文件夹中的README.md, 按照里面的步骤build好ouster_viz；
+> 3. 最后进入ouster_example -> ouster_ros文件夹，打开里面的打开README.md，按照里面的步骤完成build即可
 
 Ouster提供基于ROS1的节点驱动，可以方便的查看点云数据并进行基于Ouster点云和图像的机器学习和深度学习算法验证。
 
-
-## 安装编译Ouster ROS
+## 安装编译Ouster ROS==》以下针对1.13及早前固件！！！
 
 1. 根据ROS官方安装指南正确安装ROS
     - 如果你使用的是 Ubuntu 16.04, 请安装 [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
