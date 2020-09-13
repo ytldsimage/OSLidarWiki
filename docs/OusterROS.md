@@ -1,5 +1,24 @@
 # Ouster ROS 完整教程
 > 适用 Ubunut 18.04 及 Ubuntu 16.04
+>
+> 以下内容仅仅适配fw1.13，对于fw1.14 请阅读对应文件夹下的[readme](/OSVizB10)文档，注意路径及依赖需要提前设置。
+>
+> ```sh
+>  #!/bin/bash
+>  set -x
+>  
+>  
+>  #如果没有安装ROS
+>  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' && sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654 && sudo apt-get update && sudo apt install -y ros-melodic-desktop ros-melodic-pcl-ros ros-melodic-tf2-geometry-msgs && echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc && source ~/.bashrc && sudo apt install -y python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential && sudo rosdep init && rosdep update
+>   
+>    
+>  
+>  
+>  #如果已经安装ROS
+>  sudo dpkg --configure -a &&  sudo apt update -y &&  sudo apt upgrade -y && sudo apt autoremove -y && sudo apt --fix-broken -y install && sudo apt-get update --fix-missing && sudo apt-get -y install unzip   git   cmake build-essential libglfw3-dev libglew-dev libeigen3-dev libjsoncpp-dev libtclap-dev && git clone https://github.com/ytldsimage/ouster_example && cd ~/ouster_example/ouster_client/ && sudo mkdir build && cd build && sudo cmake .. &&  sudo make && cd ~ && export CMAKE_PREFIX_PATH=~/ouster_example/ && cd ~/ouster_example/ouster_viz && sudo mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && sudo make && source /opt/ros/*/setup.bash && cd ~ && sudo mkdir -p myOSROS/src && cd myOSROS && ln -s ~/ouster_example ./src/ && catkin_make -DCMAKE_BUILD_TYPE=Release   #Ubuntu 18.04， ROS1已安装，下载路径与安装路径都在当前用户目录下 
+> ```
+>
+> 
 
 Ouster提供基于ROS1的节点驱动，可以方便的查看点云数据并进行基于Ouster点云和图像的机器学习和深度学习算法验证。
 
@@ -125,8 +144,9 @@ Ouster提供基于ROS1的节点驱动，可以方便的查看点云数据并进�
 6. 开启新命令行，转到录制文件`.bag`的存储目录，输入`rosbag play -l --clock <录制数据文件名.bag>`:
 	
 	![](./imgs/rosbag_play.png)
-	- `-l`：循环播放
-
+	
+- `-l`：循环播放
+	
 7. 用`RVIZ`查看雷达输出，用快捷键`shift+ctl+t`新开启一个命令行页面，输入`rviz -d viz.rviz`，启动rviz查看点云或2D环视图：
 
 	![](./imgs/start_rviz.png)
