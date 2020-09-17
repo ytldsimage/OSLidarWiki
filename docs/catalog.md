@@ -1,6 +1,8 @@
 # 技术手册
 
 > datasheet & catalog，有问题请加微信：Kungfuas
+>
+> ![image-20200917195236547](catalog.assets/image-20200917195236547.png)
 
 - ### Datasheet:
 

@@ -51,14 +51,19 @@
     - 多层优化（光圈与镜头）的高准直专利光路
     - Time correlated single photon counting (TCSPC) 时间相关单光子计数及阈值比较器
 
-11. OS雷达的可靠性如何？
+11. 三帧GID雷视一体的结构化数据有什么价值？
 
-       ![7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c](faq.assets/7761c0b5-c6bf-49c0-9a53-a3dd576c4d9c-9439917.gif)
+    强光与弱光环境下都有清晰的环视纹理，并且与点云深度时空对齐高度结构化，物理级前渲染，可以高效的实现物体的识别与分割。
 
-    ​	![06a0f4b1-3f1e-4892-a406-30b8dfa57da0](faq.assets/06a0f4b1-3f1e-4892-a406-30b8dfa57da0-9439917.gif)
+    ![image-20200917195436730](faq-app.assets/image-20200917195436730.png)
 
-       	![27a67ef2-516a-41c2-83d6-9c23721c3420](faq.assets/27a67ef2-516a-41c2-83d6-9c23721c3420-9439917.gif)
+12. 如何在不同距离上估算雷达的落点？
 
-    ​		![a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2](faq.assets/a8c6a9ca-fbc9-4871-a185-0c8cc3ea88c2-9439917.gif)
+    可以采用该开源工具[Blensor](https://www.blensor.org/)建模，或采用如下方案估算（人高1.8m）：
 
-12. 
+    ![image-20200917194942160](faq-app.assets/image-20200917194942160.png)
+
+    ![image-20200917195002905](faq-app.assets/image-20200917195002905.png)
+
+    ![image-20200917195028011](faq-app.assets/image-20200917195028011.png)
+
