@@ -33,3 +33,11 @@
     - 目前支持ASIC2019 fw1.13数据协议对应的全部产品，以及ASIC2020 fw1.14系列64线产品，但与纵向指向及密度分布无关，对新品的全序列支持将在加州复工后完成
     - 如果速度 》3 m/s（可支持6dof无人机slam），需使X轴 （线缆伸出方向的反向）与行动方向一致
     - 目前仅支持内置IMU，但理论上可以支持外部IMU，暂不对外支持GNSS，以及可以发现并观测到5-10°的非常小的坡度。
+    
+5. 其他开源SLAM方案：
+
+    - https://github.com/googlecartographer/cartographer
+    - https://github.com/laboshinl/loam_velodyne
+    - https://github.com/erik-nelson/blam
+    - https://github.com/simondlevy/BreezySLAM
+    - https://github.com/OpenSLAM-org
