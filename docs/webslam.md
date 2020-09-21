@@ -42,3 +42,5 @@
     - https://github.com/simondlevy/BreezySLAM
     - https://github.com/OpenSLAM-org
     - https://github.com/ytldsimage/LIO-SAM
+    - https://arxiv.org/abs/1705.09785
+
