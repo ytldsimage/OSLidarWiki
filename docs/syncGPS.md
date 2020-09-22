@@ -1,5 +1,7 @@
 # GPS NMEA 时间同步
 
+> 说明文档：https://drive.weixin.qq.com/s?k=AEYARQeBAAYPgEUwdTAE4AvQanABU
+
 ## 设置 GPS/GNSS
 
 请根据厂家说明设置您的GPS来符合 Ouster 激光雷达对GPS数据的以下要求：
