@@ -28,6 +28,8 @@
 
 3. SPads有什么优势，OS为何选用spads？
 
+   ![image-20201002220523635](spads.png)
+
    ![image-20200917202225808](faq-concepts.assets/image-20200917202225808.png)
 
    SPAD检测到光子时会产生一个二进制脉冲，具有单光子灵敏度、低噪声和极佳的时间分辨率（典型的抖动在10 ps和100 ps之间），以直接集成在CMOS晶圆中，从而在探测器旁边的硅基芯片上整合大量的信号处理，使它们成为Ouster激光雷达探测和超短激光脉冲的理想选择。
@@ -98,14 +100,40 @@
 
    我们每个像素下面其实并联了好多个亚像素，所以即使恶劣环境下，由于种种不可抗力部分或n-1像素瞎了，仍然维持工作，不像其他方案瞎了就是瞎了；这个还可以用于一些更复杂的比如后期pixel-specific filter-powered RGB-ID等场景，同时在不影响信噪比的情况下避免过曝风险。
 
-9. OS面阵如何解决串扰？
+9. 什么叫crosstalk或blooming？OS面阵如何解决串扰？
+
+   ![image-20201002225321235](faq-concepts.assets/image-20201002225321235.png)
+
+   ![image-20201002225403389](faq-concepts.assets/image-20201002225403389.png)
 
    - 芯片内阻隔层
    - 像素间亚像素intrinsic offset
    - 多层优化（光圈与镜头）的高准直专利光路
-   - Time correlated single photon counting (TCSPC) 时间相关单光子计数及阈值比较器
+   - Time correlated single photon counting (TCSPC) 时间相关单光子计数及环境阈值比较器
+   - 固件算法层面处理
+   - 多次回波设计，如false positive 后面有回波，只接受后面回波，丢弃前置
 
-10. 什么叫时空锁定机制，有什么价值？
+10. PD, APD与SiPM及spads的工作模式有什么不同？
+
+    - PD – Photodiode, 1光子生1电子对
+    - APD – Avalanche photodiode，一般是1光子生百电子
+    - SPAD – Single-photon avalanche photodiode == SPPC – Single-pixel photon counter; another name for SPAD，无淬灭电路1光子生无穷，一旦激发就不再对后续光子敏感，仅作开关用
+    - SiPM – Silicon photomultiplier == MPPC – Multi-pixel photon counter; another name for SiPM
+    - PMT – Photomultiplier tube
+
+    ![image-20201002221218177](pnj.png)
+
+    ![image-20201002221557458](faq-concepts.assets/image-20201002221557458.png)
+
+    ![image-20201002222552287](sipm.png)
+
+    ![image-20201002222630541](faq-concepts.assets/image-20201002222630541.png)
+
+11. spads 在接收处理机制上有什么优点？
+
+    
+
+12. 什么叫时空锁定机制，有什么价值？
 
     空间锁定：所有像素关系终生固化为芯片内部，不像其他方案：手动挨个装一堆，然后同一部设备不超过2000hr就需要重新标定一次，如果环境恶劣可能是几百小时就得重新标定，更不提批次间不一致; 
 
