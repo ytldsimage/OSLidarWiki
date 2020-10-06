@@ -3,6 +3,8 @@
 > 本文主要介绍概念层面的一些常见问题，如需详细解释，请加微信：Kungfuas
 >
 > ![image-20200917190839543](faq-concepts.assets/image-20200917190839543.png)
+>
+> ![image-20201006202319656](faq-concepts.assets/image-20201006202319656.png)
 
 1. 什么是数字激光雷达，MBF与传统方案的区别是？
 
