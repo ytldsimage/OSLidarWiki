@@ -28,4 +28,8 @@
   - http://data.ouster.io/downloads/OS2-lidar-sensor-datasheet.pdf
     - 中文版：https://drive.weixin.qq.com/s?k=AEYARQeBAAY5Iixk4HAE4AvQanABU
   - https://ouster.com/products/os2-lidar-sensor/
+  
+- ### ES2: Solid State Digital Lidar(SSDL), 450m,26°X13°FOV, 0.1º HV-Resolution
+
+  - https://drive.weixin.qq.com/s?k=AEYARQeBAAY4tfL0SKAE4AvQanABU
 
