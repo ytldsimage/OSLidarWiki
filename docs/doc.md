@@ -30,4 +30,7 @@
 - 不受控声明：
   - ECCN: EAR99
   - https://drive.weixin.qq.com/s?k=AEYARQeBAAYVX1mppPAE4AvQanABU
+- 受限实体检索：
+  - [Bureau of Industry and Security (BIS)](https://legacy.export.gov/csl-search)
+  - [Office of Foreign Assets Control (OFAC)](https://sanctionssearch.ofac.treas.gov/)
 

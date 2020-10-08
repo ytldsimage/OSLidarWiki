@@ -40,7 +40,13 @@
 
    参考：[OusterStudio @windows](/OusterStudio)
 
-8. 断网关防火墙之后，仍然无效是因为如何？
+8. 采用ROS VIZ来可视化点云数据，且以intensity着色的时候，发现强度闪烁的事情是正常的么？
+
+   rviz里着色时的默认设置是autocompute，这样的话如果车子行驶中强度最大值变化较大的话是会这样的；也就是说，动态范围着色，在不同帧里，同款颜色对应不同的强度可能；如果不希望这样，可以把autocompute关掉，然后自己设置min 和max.
+
+   ![de13124b-7ebb-431d-b8f1-cfb4c83854cc](../../intensity.jpg)
+
+9. 断网关防火墙之后，仍然无效是因为如何？
 
    - 重启一下，有部分windows重启后防火墙才真正设置生效，改好电脑ip后要disable/enable一次，才会生效
    - 试一下sudo tcpdump -i <interface>，其中<interface>是你电脑上网卡的名称，或者在雷达与电脑连接好的情况下重新启动一次雷达==》本来雷达默认是通过DHCP来动态获取ip地址的，但是如果雷达开机时未与电脑相连，就可能会导致它自己无法根据电脑ip来分配到同一个网段的ip，这时候就需要重启一次雷达，让它重新动态获取一个新的ip
@@ -52,7 +58,7 @@
 
    ![image-20200728163247457](faq-app.assets/linklocalonly.png)
 
-9. Ubuntu 下正确的ROS驱动安装编译方式是？
+10. Ubuntu 下正确的ROS驱动安装编译方式是？
 
    可以直接采用[一键脚本](/OusterROS)，或者遵循如下安装步骤：
 
@@ -60,7 +66,7 @@
    - 进入ouster_example -> ouster_viz文件夹，打开README.md, 按照里面的Build Dependencies步骤完成对dependencies的安装；
    - 最后进入ouster_example -> ouster_ros文件夹，打开里面的打开README.md，按照里面的步骤完成build即可
 
-10. 黑匣子有什么用？如何访问？
+11. 黑匣子有什么用？如何访问？
 
    记录从出厂以来的全部操作，用于：
 
