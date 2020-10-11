@@ -44,7 +44,7 @@
 
    rviz里着色时的默认设置是autocompute，这样的话如果车子行驶中强度最大值变化较大的话是会这样的；也就是说，动态范围着色，在不同帧里，同款颜色对应不同的强度可能；如果不希望这样，可以把autocompute关掉，然后自己设置min 和max.
 
-   ![de13124b-7ebb-431d-b8f1-cfb4c83854cc](../../intensity.jpg)
+   ![de13124b-7ebb-431d-b8f1-cfb4c83854cc](faq-applications.assets/int.jpg)
 
 9. 断网关防火墙之后，仍然无效是因为如何？
 
