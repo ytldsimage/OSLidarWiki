@@ -4,7 +4,7 @@
 >
 > 此处整理问题，汇总更新，如有问题，请扫如下二维码：
 >
-> ![image-20200917210554905](faq-app.assets/wechat.png)
+> ![[image-20200917210554905](https://drive.weixin.qq.com/s?k=AEYARQeBAAYxBiFxFtAE4AvQanABU)](faq-app.assets/wechat.png)
 
 1. 什么是数字激光雷达，MBF与传统方案的区别是？
 
