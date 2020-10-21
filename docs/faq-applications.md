@@ -257,7 +257,7 @@
 
 34. 低温40度结霜冷启有什么成功案例可以公开讲的么？
 
-    我们有一些矿车矿卡用户，在东北与内蒙需要这种需求，虽然受限于NDA，我们无法披露太多信息，但是大家可以参考如下[这篇文章](https://mp.weixin.qq.com/s?__biz=MzA5NjE4NDU0Nw==&mid=2651138542&idx=1&sn=5cbb2dfd8a5d32bfd2b6072a73526888&chksm=8b427862bc35f1746bcee426ab7608886ce056e7430c0c50abc6c761f4848de2dd7f39172cd7&mpshare=1&scene=1&srcid=1020759p7edkaN48tDlnt3Lg&sharer_sharetime=1603175206760&sharer_shareid=94ee7e8302d8a6f4bf452858280a47e4&version=3.0.31.2308&platform=mac#rd)。
+    我们有一些矿车矿卡用户，在东北与内蒙需要这种需求，虽然受限于NDA，我们无法披露太多信息，但是大家可以参考如下这篇文章:[世界首个极寒工况5G+220吨无人驾驶卡车可开展工业性试运行 by 航天重工](https://mp.weixin.qq.com/s?__biz=MzA5NjE4NDU0Nw==&mid=2651138542&idx=1&sn=5cbb2dfd8a5d32bfd2b6072a73526888&chksm=8b427862bc35f1746bcee426ab7608886ce056e7430c0c50abc6c761f4848de2dd7f39172cd7&mpshare=1&scene=1&srcid=1020759p7edkaN48tDlnt3Lg&sharer_sharetime=1603175206760&sharer_shareid=94ee7e8302d8a6f4bf452858280a47e4&version=3.0.31.2308&platform=mac#rd)。
 
 35. 工作温度指的是环境温度，还是雷达自身温度？有无进一步拓宽温度区间的计划？
 
