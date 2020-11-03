@@ -188,7 +188,7 @@
 
     ![image-20201002224320376](faq-concepts.assets/image-20201002224320376.png)
 
-    无需处理，完美对齐。
+    [无需处理，完美对齐。](https://drive.weixin.qq.com/s?k=AEYARQeBAAY4CeXut8AE4AvQanABU)
 
     ![image-20201002224405555](faq-concepts.assets/image-20201002224405555.png)
 
