@@ -114,6 +114,7 @@
    - Time correlated single photon counting (TCSPC) 时间相关单光子计数及环境阈值比较器
    - 固件算法层面处理
    - 多次回波设计，如false positive 后面有回波，只接受后面回波，丢弃前置
+   - 最新固件已允许客户自行确定滤除blooming力度，以便适应不同场景下需求（fw2.0）
 
 10. PD, APD与SiPM及spads的工作模式有什么不同？
 
