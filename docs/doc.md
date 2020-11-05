@@ -18,9 +18,12 @@
   - 中文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYpwgNwZgAE4AvQanABU
 - 代理协议：https://drive.weixin.qq.com/s?k=AEYARQeBAAYaV3SX5MAE4AvQanABU
 - 客户注册：https://drive.weixin.qq.com/s?k=AEYARQeBAAY0szD7qOAE4AvQanABU
-- 长约协议：
+- MPSA协议：
   - 英文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYyXiBwe1AE4AvQanABU
   - 中文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYvKqoNLAAE4AvQanABU
+- SCA协议：
+  - RMB：https://drive.weixin.qq.com/s?k=AEYARQeBAAYPhJKLh0AE4AvQanABU
+  - USD:   https://drive.weixin.qq.com/s?k=AEYARQeBAAYUPorVmSAE4AvQanABU
 - OSUS License:      
   - 英文版：
     - 注册书：https://drive.weixin.qq.com/s?k=AEYARQeBAAYGeZ96aRAE4AvQanABU
