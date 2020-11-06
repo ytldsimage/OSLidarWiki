@@ -5,17 +5,17 @@
 >
 > ```sh
 > #!/bin/bash
-> set -x
-> 
-> 
-> #如果没有安装ROS
-> sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' && sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654 && sudo apt-get update && sudo apt install -y ros-melodic-desktop ros-melodic-pcl-ros ros-melodic-tf2-geometry-msgs && echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc && source ~/.bashrc && sudo apt install -y python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential && sudo rosdep init && rosdep update
-> 
-> 
-> 
-> 
-> #如果已经安装ROS
-> cd ~ && sudo dpkg --configure -a &&  sudo apt update -y &&  sudo apt upgrade -y && sudo apt autoremove -y && sudo apt --fix-broken -y install && sudo apt-get update --fix-missing && sudo apt-get -y install unzip   git   cmake build-essential libglfw3-dev libglew-dev libeigen3-dev libjsoncpp-dev libtclap-dev && git clone https://github.com/ytldsimage/ouster_example && cd ~/ouster_example/ouster_client/ && sudo mkdir build && cd build && sudo cmake .. &&  sudo make && cd ~ && export CMAKE_PREFIX_PATH=~/ouster_example/ && cd ~/ouster_example/ouster_viz && sudo mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && sudo make && source /opt/ros/*/setup.bash && cd ~ && sudo mkdir -p myOSROS/src && cd myOSROS && ln -s ~/ouster_example ./src/ && catkin_make -DCMAKE_BUILD_TYPE=Release   #Ubuntu 18.04， ROS1已安装，下载路径与安装路径都在当前用户目录下 
+>  set -x
+>  
+>  
+>  #if without ROS kinetic @Ubuntu 16.04
+>  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' && sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654 && sudo apt update && sudo apt install -y ros-kinetic-desktop ros-kinetic-pcl-ros ros-kinetic-tf2-geometry-msgs ros-kinetic-gazebo-ros-control ros-kinetic-controller-interface ros-kinetic-hardware-interface ros-kinetic-hector-gazebo-plugins ros-kinetic-hector-pose-estimation ros-kinetic-hector-sensors-description ros-kinetic-message-to-tf && echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc && source ~/.bashrc && sudo apt install -y python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential && sudo rosdep init && rosdep update
+>  
+>  #if without ROS melodic @Ubuntu 18.04
+>  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' && sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654 && sudo apt-get update && sudo apt install -y ros-melodic-desktop ros-melodic-pcl-ros ros-melodic-tf2-geometry-msgs && echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc && source ~/.bashrc && sudo apt install -y python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential && sudo rosdep init && rosdep update
+>  
+>  #OSdriver @~/myOSROS
+>  cd ~ && sudo dpkg --configure -a &&  sudo apt update -y &&  sudo apt upgrade -y && sudo apt autoremove -y && sudo apt --fix-broken -y install && sudo apt update --fix-missing && sudo apt -y install unzip   git   cmake build-essential libglfw3-dev libglew-dev libeigen3-dev libjsoncpp-dev libtclap-dev && git clone https://github.com/ytldsimage/ouster_example && cd ~/ouster_example/ouster_client/ && sudo mkdir build && cd build && sudo cmake .. &&  sudo make && cd ~ && export CMAKE_PREFIX_PATH=~/ouster_example/ && cd ~/ouster_example/ouster_viz && sudo mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && sudo make && source /opt/ros/*/setup.bash && cd ~ && sudo mkdir -p myOSROS/src && cd myOSROS && ln -s ~/ouster_example ./src/ && catkin_make -DCMAKE_BUILD_TYPE=Release  
 > ```
 >
 > 以下内容仅仅适配fw1.13，对于fw1.14 请阅读对应文件夹下的[readme](/OSVizB10)文档，注意路径及依赖需要提前设置，安装ROS驱动步骤：
