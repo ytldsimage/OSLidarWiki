@@ -21,7 +21,13 @@
 
 3. 什么是子光束指向及密度分布，有什么价值？
 
-   纵向FOV 可以变化，可以比如降低到50%VFOV 而维持线数不变，可以中间密两边疏，可以只水平向下，可以只水平向上，如果特别大的用户，我们还可以特别定制，参照此处（以OS1-32/64线为例）：![image-20201106211108986](OS1-BS.png)
+   纵向FOV 可以变化，可以比如降低到50%水平对称VFOV 而维持线数不变（角分辨率增倍），可以中间密两边疏，可以只水平向下，可以只水平向上，如果特别大的用户，我们还可以特别定制，参照此处及一个简单图例：
+
+   - OS0：https://drive.weixin.qq.com/s?k=AEYARQeBAAYFV2kdLcAE4AvQanABU
+   - OS1:   https://drive.weixin.qq.com/s?k=AEYARQeBAAYeMkDGOMAE4AvQanABU
+   - OS2:   https://drive.weixin.qq.com/s?k=AEYARQeBAAYIN1z1IsAE4AvQanABU
+
+   ![image-20201106211108986](OS1-BS.png)
 
 4. 客户可以自行及动态更改VFOV么？
 
