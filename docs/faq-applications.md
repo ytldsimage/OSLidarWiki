@@ -121,6 +121,8 @@
 
 19. 何为锁相？
 
+    多个雷达不同位置不同角度安装，调整其初始发射角度，使之同时看一个方向，比如3个32线叠加累积成96线效果，由于同时同向并发，无需后置剪切处理。
+
     ![img](faq-app.assets/msc.png)
 
 20. 对于尘霾矿场的情况呢？
@@ -177,7 +179,17 @@
 
 29. 目前相机是额外一套cmos相机么，最高像素是多少，是彩色相机么？
 
+    ![bfad9e4e-e9be-40a2-92ac-c930d82d4dc3](faq-applications.assets/v1.png)
+
+    ![473a8ce7-1117-49b0-babb-67dec8b1ebe5](faq-applications.assets/v2.png)
+
+    ![ce891de8-ccca-4126-a34b-a5b5edb591b3](faq-applications.assets/v3.png)
+
     并非额外外设，是spads复用，自身不发射，全部来自环境光的灰度信息，最高像素2048*N，N为线数，是灰度相机，但是3帧相机数据是原生时空对齐的。
+
+    ![ef97c99a-17ae-4773-b932-19d748ffa1c1](faq-applications.assets/gid.jpg)
+
+    ![1b437c51-fc4a-4015-b894-31941eb84d14](faq-applications.assets/lv21.png)
 
 30. 不同激光雷达反映在点云的数据结构上有什么区别？
 
