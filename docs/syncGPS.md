@@ -10,6 +10,7 @@
 - 波特率(Baud Rates): 9600 或 115200
 - 启用极性(Polarity): 高电平(ACTIVE_HIGH) 或 低电平(ACTIVE_LOW)
 - 电压: 3.3 - 15V (最小电流5mA)
+- 目前已经支持以1部GNSS驱动多枚雷达（PPS out is driving when MIO was set as input ）
 
 **注意** 如果GPS电压不能满足上述最小电压，请参照[《硬件指南》3.2章节](https://data.ouster.io/downloads/hardware-user-guide-v1.13.0.pdf)制作额外的升压电路。
 
