@@ -304,21 +304,20 @@
 
 41. 目前ROS驱动，是否已经将lidar坐标系转为sensor坐标系，是否已经将IMU的位姿信息转换为sensor坐标系？
 
-    ROS驱动仅仅是将极坐标系变换到lidar coordinate system，需要用户自行将lidar coordinate frame下的坐标通过矩阵换算到sensor coordiante frame，imu通过另外一个矩阵也换算到sensor coordinate frame下。
-
-    关于这一点，可以很容易测试一下。在RVIZ里选点，看它的xyz坐标，就知道是lidar 坐标系下的还是sensor坐标系下的，因为两者的XY坐标是反的。
+    - ROS驱动仅仅是将极坐标系（原点在镜头位置一直转动，而非雷达中心）变换到sensor coordinate system（XY与lidar coordinates system相反，Z原点高度则在雷达底心而非lidar coordinates system的雷达中心，对OS1而言二者相差35mm），用户无需再将lidar coordinate frame下的坐标通过矩阵换算到sensor coordiante frame（但b14之前方案仍需对Z轴+1个上述的offset，因此时Z原点位于雷达中心），imu通过另外一个矩阵也换算到sensor coordinate frame下。
+    - 关于这一点，可以很容易测试一下。在RVIZ里选点，看它的xyz坐标，就知道是lidar 坐标系下的还是sensor坐标系下的，因为两者的XY坐标是反的。
 
 42. 采用ROS VIZ来可视化点云数据，且以intensity着色的时候，发现强度闪烁的事情是正常的么？
 
     rviz里着色时的默认设置是autocompute，这样的话如果车子行驶中强度最大值变化较大的话是会这样的；也就是说，动态范围着色，在不同帧里，同款颜色对应不同的强度可能；如果不希望这样，可以把autocompute关掉，然后自己设置min 和max.
 
-    ![de13124b-7ebb-431d-b8f1-cfb4c83854cc](faq-applications.assets/int.jpg)
+![de13124b-7ebb-431d-b8f1-cfb4c83854cc](faq-applications.assets/int.jpg)
 
 43. 屏幕点云闪烁是什么原因？
 
     这是典型的udp package loss 丢包，请检查 Cable/Hub以及网卡是否是 **真千兆** ，一般更换之后就会消除，网线至少要Cat5e以上级别，同时注意编译的时候编译为release模式而非debug模式，否则会只单核工作；另外尽可能直联而非通过多个交换机；断网断防火墙；
 
-  <video src="file:///Users/jacky.xu/Ouster-Docs-CN/docs/videos/1589272302572522.mp4" data-src="videos/1589272302572522.mp4" controlslist="nodownload" controls="controls" style="-webkit-user-select: none !important; box-sizing: border-box; max-width: 100%; display: block; margin: 0px auto; transform: translateZ(0px);"></video>
+<video src="file:///Users/jacky.xu/Ouster-Docs-CN/docs/videos/1589272302572522.mp4" data-src="videos/1589272302572522.mp4" controlslist="nodownload" controls="controls" style="-webkit-user-select: none !important; box-sizing: border-box; max-width: 100%; display: block; margin: 0px auto; transform: translateZ(0px);"></video>
 
 
 
