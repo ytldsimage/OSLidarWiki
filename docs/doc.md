@@ -6,7 +6,7 @@
 
 - 报关税号：
   - 美国产地方案：~~9031809090  (4%)，以及，目前有9031499090（20%-》0%）~~90151000 （28%-》1.5%）关税操作方式，但要在[财政部](https://gszx.mof.gov.cn/ )注册申请豁免排除（初次进出口权申请者可当月申报豁免，之后必须次月申报来月）。
-  - 泰国产地方案：90151000无需财政部特别豁免默认1.5%, +泰国原产地证书@东盟协定=》0关税。
+  - [泰国产地方案](https://drive.weixin.qq.com/s?k=AEYARQeBAAYz9K6kGYAE4AvQanABU)：90151000无需财政部特别豁免默认1.5%, +泰国原产地证书@东盟协定=》0关税。
 - 保密协议：
   - 英文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYxxKqT6BAE4AvQanABU
   - 中文：https://drive.weixin.qq.com/s?k=AEYARQeBAAYNVAzsWGAE4AvQanABU
