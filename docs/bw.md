@@ -3,7 +3,7 @@
 1. DCR: Dark Count Rate,The **dark count rate** (**DCR**) is defined as pulses per second in **dark** condition (i.e., no photons entering the SPAD). 
 2. EOL:  End Of Line
 3. Diag dump: diagnositics dump，诊断日志，dump在这里纯粹指log，没有缓存或垃圾处理的意思
-4. aser stagger + tuning:
+4. laser stagger + tuning:
 5. ESD failure remediation: Electrostatic discharge failure 静电放电故障拯救
 6. Deep Shot Limiting (50%->75% reduction, improves thermals)：
 7. Sensor Telemetry (temperature, voltages, alerts)：遥测
