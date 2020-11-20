@@ -7,7 +7,7 @@
 - 高线数（128）的量产工业激光雷达
 - 体积小巧，性价比高
 
-[GitHub](https://github.com/ouster-lidar/ouster_example)
+[GitHub](https://ros.oslidar.com)
 [开始使用](README.md)
 
 <!-- background image -->
