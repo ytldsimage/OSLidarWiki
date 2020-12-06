@@ -41,11 +41,7 @@
 
 6. Ubuntu 下正确的ROS驱动安装编译方式是？
 
-   可以直接采用[一键脚本](/OusterROS)，或者遵循如下安装步骤：
-
-   - 进入ouster_example -> ouster_client文件夹，打开README.md, 按照里面的步骤build好client;
-   - 进入ouster_example -> ouster_viz文件夹，打开README.md, 按照里面的Build Dependencies步骤完成对dependencies的安装；
-   - 最后进入ouster_example -> ouster_ros文件夹，打开里面的打开README.md，按照里面的步骤完成build即可
+   可以直接采用[一键脚本](/OusterROS)，或者遵循如下[安装步骤](https://github.com/ytldsimage/ouster_example/blob/master/README.rst)
 
 7. 断网关防火墙之后，仍然无效是因为如何？
 
