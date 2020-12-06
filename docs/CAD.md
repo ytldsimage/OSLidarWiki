@@ -2,17 +2,20 @@
 
 > 需要[其他文档](https://ouster.com/downloads/)，有问题请加微信：Kungfuas
 >
-> 
 
 CAD: https://ouster.box.com/s/myu8t5ji259eo0bvh3blxic8no046x7x
 
 - 雷达主体：
   - [OS0](https://data.ouster.io/downloads/sensor-cad-models/sensor-cad-revc-os0.zip?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
-  - [OS1](https://data.ouster.io/downloads/sensor-cad-models/sensor-cad-revc-os1.zip?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
+  - OS1
+    - [ASIC2019](https://data.ouster.io/downloads/sensor-cad-models/sensor-cad-gen1-os1.zip)
+    - [ASIC2020](https://data.ouster.io/downloads/sensor-cad-models/sensor-cad-revc-os1.zip?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
   - [OS2](https://data.ouster.io/downloads/sensor-cad-models/sensor-cad-revc-os2.zip?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
 - 雷达配件：
   - [OS0](https://data.ouster.io/downloads/accessory-cad-models/accessories-cad-revc-os0.zip?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
-  - [OS1](https://data.ouster.io/downloads/accessory-cad-models/accessories-cad-revc-os1.zip?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
+  - OS1
+    - [ASIC2019](https://data.ouster.io/downloads/accessory-cad-models/accessories-cad-gen1-os1.zip)
+    - [ASIC2020](https://data.ouster.io/downloads/accessory-cad-models/accessories-cad-revc-os1.zip?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
   - [OS2](https://data.ouster.io/downloads/accessory-cad-models/accessories-cad-revc-os2.zip?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
 - 开源模型：
   - [OS0/1 Radial Cap Open Source Models](https://cad.onshape.com/documents/7b6a11f514ec4a74d5cbb9a4/w/c36ead60f7f73ded14e66726/e/72744977c62544ab0c9b58a5)
