@@ -4,7 +4,7 @@
 >
 > 除了**轻小**、**高防**与**高抗震抗振**之外，我们自带了**相机、惯导、黑匣子**，**时空锁定特性**，**超高快门**，**超大光圈**，**高水雾霾穿透**，**并联冗余接收**，**无线及POE+供电**，**纵向FOV及子光束指向与密度分布可调**，以及**竞品20%左右的成本**，与**对代理商非常慷慨的利润空间**和**2周交付能力**。
 
-Highlights: @[PK Table .VS. VLP](https://drive.weixin.qq.com/s?k=AEYARQeBAAY5mJMYSwAE4AvQanABU) & @[常见问题](/faq)
+Highlights: [@PK Table .VS. VLP](https://drive.weixin.qq.com/s?k=AEYARQeBAAYpZZLAsfAE4AvQanABU) & @[常见问题](/faq)
 
 1. [全球最轻小&高防](https://ouster.box.com/s/sq6b9yyohfszz4dmi9y30nvvp9hxtid2) @环视完整视野：[~300g(可移除底座与散热片) .vs. 动辄>1kg甚至几kg](https://drive.weixin.qq.com/s?k=AEYARQeBAAYYx3pF92AE4AvQanABU)；[85mmφ x 58mm](https://ouster.box.com/s/myu8t5ji259eo0bvh3blxic8no046x7x)；[盐雾/紫外/水枪、热循环/应力/老化、跌落、防呆、电磁及多机干扰考验](https://www.youtube.com/channel/UCRB5JpLey3BA-1P9XyrErTA)与[全局](https://ouster.com/blog/upgrading-our-sensors-with-space-grade-connectors/)[IP69K](https://ouster.com/blog/upgrading-our-sensors-with-space-grade-connectors/) (1000h of ASTM B117-19 Salt Spray (Fog)).
 
