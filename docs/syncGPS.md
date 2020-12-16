@@ -12,7 +12,7 @@
 - 电压: 3.3 - 15V (最小电流5mA)
 - 目前已经支持以1部GNSS驱动多枚雷达（PPS out is driving when MIO was set as input ）
 
-**注意** 如果GPS电压不能满足上述最小电压，请参照[《硬件指南》3.2章节](https://data.ouster.io/downloads/hardware-user-guide-v1.13.0.pdf)制作额外的升压电路。
+**注意** 如果GPS电压不能满足上述最小电压，请参照[《硬件指南》3.2章节](https://data.ouster.io/downloads/hardware-user-manual/hardware-user-manual-revc-os1.pdf?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)制作额外的升压电路。
 
 ## 连接GPS和转接盒
 
