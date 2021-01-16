@@ -1,11 +1,11 @@
 ![logo](./imgs_market/ouster.svg ':size=100x100')
 
-# Ouster 中文文档 <small>v2.0</small>
+# Ouster Lidar
 
-> 突破性的数字3D激光雷达
+> ASIC自研摩尔进化，MBF高分多通道数字闪光
 
-- 高线数（128）的量产工业激光雷达
-- 体积小巧，性价比高
+- GIRD环视雷视一体+VIO视觉惯性里程计
+- 轻小高防，雨雾尘霾穿透，HVFOV子光束密指SDL
 
 [GitHub](https://ros.oslidar.com)
 [开始使用](README.md)
