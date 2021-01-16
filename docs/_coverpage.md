@@ -2,10 +2,10 @@
 
 # Ouster Lidar
 
-> ASIC自研摩尔进化，MBF高分多通道数字闪光
+> ASIC自研摩尔进化，MBF高分多光束数字闪光
 
-- GIRD环视雷视一体+VIO视觉惯性里程计
-- 轻小高防，雨雾尘霾穿透，HVFOV子光束密指SDL
+- GID环视雷视一体+VIO视觉惯性里程计
+- 轻小高防，雨雾尘霾穿透，HVFOV子光束密指自定义
 
 [GitHub](https://ros.oslidar.com)
 [开始使用](README.md)
