@@ -1,6 +1,6 @@
 ![logo](./imgs_market/ouster.svg ':size=100x100')
 
-# Ouster Lidar
+# OUSTER LIDAR
 
 > ASIC自研摩尔进化，MBF高分多光束数字闪光
 
