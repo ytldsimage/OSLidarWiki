@@ -7,7 +7,7 @@
 - ### Datasheet:
 
   - 对比：https://drive.weixin.qq.com/s?k=AEYARQeBAAYu6ZIGnhAE4AvQanABU
-  - 黄页：https://drive.weixin.qq.com/s?k=AEYARQeBAAY84SUnn8AE4AvQanABU
+  - 黄页：https://drive.weixin.qq.com/s?k=AEYARQeBAAYntoE5NJAE4AvQanABU
 
 - ### [OS1](https://ouster.com/products/os1-lidar-sensor/)
 
