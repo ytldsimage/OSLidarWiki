@@ -34,7 +34,7 @@
 
 3. SPads有什么优势，OS为何选用spads？
 
-   ![image-20201002220523635](spads.png)
+   ![[image-20201002220523635](https://drive.weixin.qq.com/s?k=AEYARQeBAAYdXFRazHAE4AvQanABU)](spads.png)
 
    ![image-20200917202225808](faq-concepts.assets/image-20200917202225808.png)
 
