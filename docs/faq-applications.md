@@ -254,7 +254,11 @@
 
 37. ambient,signal, intensity以及reflectivity数据有什么区别?
 
-    Ambients采集的是本身雷达激光不发射时候的被动环境光信息；signal与intensity是同一种数据，也就是主动发射的回波强度信息；reflectivity是归一化的signal intensity，也就是根据距离平方关系修正下的强度信息，反映与距离无关的材质纹理特性；目前reflectivity尚未进行绝对修正，初步计划在2020Q4完成fw2.1，如大家对该绝对标定数据有需求，可以联系我们给出拟合修正公式。
+    Ambients采集的是本身雷达激光不发射时候的被动环境光信息；signal与intensity是同一种数据，也就是主动发射的回波强度信息；reflectivity是归一化的signal intensity，也就是根据距离平方关系修正下的强度信息，反映与距离无关的材质纹理特性；目前reflectivity尚未进行绝对修正，初步计划在2021Q1完成fw2.1，如大家对该绝对标定数据有需求，可以联系我们给出拟合修正公式。
+
+    下图左侧为对距离归一化且标定完毕的绝对反射率reflectivity数据，右侧是未对距离归一化的signal/intensity强度信息。
+
+    ![img](faq-applications.assets/lJ1NArSDoSHEZpoopc3iF_SqINPSd0XFNHv6ySTAp2Dm1u_Ph-uNB5tQ9ceDER8Tbw34boTXmmgLxywPKLE5NmB3SggvonMEEZFGVLLfn59LDajBQfH3dKADZhxuTU1F9z-i8ZYFJfM.png)
 
 38. 我们政府/公民对隐私比较敏感，不希望雷达当中有环境光相机的存在，OS可以提供移除ambient数据的隐私模式么？
 
