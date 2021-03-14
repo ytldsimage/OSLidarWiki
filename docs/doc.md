@@ -37,6 +37,7 @@
     - 附件：https://drive.weixin.qq.com/s?k=AEYARQeBAAY5W3Zb10AE4AvQanABU
 - OSHK License:    https://drive.weixin.qq.com/s?k=AEYARQeBAAYGnF6o8CAE4AvQanABU
 - OSSZ License：  https://drive.weixin.qq.com/s?k=AEYARQeBAAY0a0nRKEAE4AvQanABU
+- 投资人相关: https://drive.weixin.qq.com/s?k=AEYARQeBAAYvXXTrqOAE4AvQanABU
 - 不受控声明：
   - ECCN: EAR99
   - https://drive.weixin.qq.com/s?k=AEYARQeBAAYVX1mppPAE4AvQanABU
