@@ -14,14 +14,15 @@
 ---
 ### Windows Studio 连接注意事项：
 
-- https://drive.weixin.qq.com/s?k=AEYARQeBAAYdDiQZaXAE4AvQanABU
-- 关闭wifi及防火墙后，记得重启；注意IPV6，bonjoursdksetup见如下链接：
-- https://drive.weixin.qq.com/s?k=AEYARQeBAAY4QxoP0rAE4AvQanABU
+- 关闭wifi及防火墙后，有时候需要重启生效；
+- 注意IPV6还是IPV4; 
+- 注意自动获取还是静态IP；
+- 注意千兆网卡与cat6网线，避免丢包
 
 ### Windows Studio 配置注意事项：
 
-- 默认1024*10，如果选配其他模式，有可能Studio没有真正配成功，这个时候需要多配几次，这个是studio的bug
 - 如果发现报错，先检查线缆连接与供电，然后用浏览器访问OS1-SN.local或OS-SN.local检查一下是否可以访问，同时Ping一下对应IP或host
+- 基本介绍：https://ouster.com/products/software/ouster-studio-visualizer/
 
 
 

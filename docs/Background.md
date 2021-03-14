@@ -10,7 +10,7 @@
 
   
 
-- ### 应用场景：
+- ### [应用场景](https://ouster.oss-cn-shanghai.aliyuncs.com/customer_applications.zip)：
 
   **无人系统、测绘测量、农业矿井、安防监控、工业工程自动化、[智慧交通/物流/城市](https://drive.weixin.qq.com/s?k=AEYARQeBAAYlRQyC1yAE4AvQanABU)**等[行业与场景](https://drive.weixin.qq.com/s?k=AEYARQeBAAYQGZQK45AE4AvQanABU)
 
@@ -28,10 +28,14 @@
 
 - ### 基础信息：
 
-  - [OSBlogRSS](https://ouster.com/blog/)：         http://5054152.hs-sites.com/blog-posts/rss.xml
-  - OSYoutube:            https://www.youtube.com/channel/UCRB5JpLey3BA-1P9XyrErTA
-  - BOXCN:                 https://ouster.ent.boxcn.net/folder/0
-  - 产品照片：            https://ouster.box.com/s/sq6b9yyohfszz4dmi9y30nvvp9hxtid2
-  - 点云照片：            https://ouster.box.com/s/5db88cgb7z6hmsk4xj8u32erashebbyk
-  - 实景视频：            https://ouster.box.com/s/nxk12awk4pdyqylkhfqhd3t2fwob6aef
-  - 大陆频道：            https://space.bilibili.com/522358013
+  - [官方博客](https://ouster.com/blog/)
+  - [OSYoutube](https://www.youtube.com/channel/UCRB5JpLey3BA-1P9XyrErTA)            
+  - [官方讲座](https://ouster.com/resources/webinars/)
+  - [数据可视化](https://ouster.com/zh-cn/resources/lidar-sample-data/)
+  - [BOXCN](https://ouster.ent.boxcn.net/folder/0)                
+  - [产品照片](https://ouster.oss-cn-shanghai.aliyuncs.com/Ouster_product_photography.zip)
+  - [点云照片](https://ouster.box.com/s/5db88cgb7z6hmsk4xj8u32erashebbyk)
+  - [实景视频](https://ouster.box.com/s/nxk12awk4pdyqylkhfqhd3t2fwob6aef)            
+  - [大陆B站](https://space.bilibili.com/522358013)
+  - [官方公众号](https://mp.weixin.qq.com/mp/homepage?__biz=MzI3NjAzODM2NQ==&hid=1&sn=77770ea86f4a7c0c965abeeaaadd4dcd//)
+
