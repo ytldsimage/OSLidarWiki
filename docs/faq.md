@@ -4,6 +4,6 @@
 >
 > 此处整理问题，汇总更新，如有问题，请扫如下二维码：
 >
-> ![[image-20200917210554905](https://drive.weixin.qq.com/s?k=AEYARQeBAAYxBiFxFtAE4AvQanABU)](faq-app.assets/wechat.png)
+> ![image-20210410212216344](faq.assets/image-20210410212216344.png)
 
 
