@@ -1,7 +1,6 @@
 # CAD结构文件@STEP
 
 > 需要[其他文档](https://ouster.com/downloads/)，有问题请加微信：Kungfuas
->
 
 CAD: https://ouster.box.com/s/myu8t5ji259eo0bvh3blxic8no046x7x
 
@@ -33,6 +32,7 @@ CAD: https://ouster.box.com/s/myu8t5ji259eo0bvh3blxic8no046x7x
   - ~~[OS2 Open Source Models](https://cad.onshape.com/documents/b27d3493d1e1a0abf7a16d63/w/24cb68a97d657b919b2a26f0/e/5684e22589e1a02504980362)~~
 - 粗线：https://drive.weixin.qq.com/s?k=AEYARQeBAAYduGBBCGAE4AvQanABU
 - 细线：https://drive.weixin.qq.com/s?k=AEYARQeBAAYqIIA6dfAE4AvQanABU
+- 超短柔线：https://drive.weixin.qq.com/s?k=AEYARQeBAAYtBPkROEAE4AvQanABU
 - IBOX: https://drive.weixin.qq.com/s?k=AEYARQeBAAY01nz8hFAE4AvQanABU
 - OS1 底板： https://drive.weixin.qq.com/s?k=AEYARQeBAAYfreJcWhAE4AvQanABU
 - 设计指导：https://drive.weixin.qq.com/s?k=AEYARQeBAAYH0p1eNvAE4AvQanABU
