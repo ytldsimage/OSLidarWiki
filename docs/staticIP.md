@@ -23,15 +23,16 @@
 - 命令行中输入 `ip addr` 检查本地IP设置是否成功
 
 ![](./imgs/Check_local_ip.png)
- 
+
 ### 查找雷达当前IP
 
  连接雷达, 命令行输入 `avahi-browse -lr _roger._tcp` 查找雷达当前地址（eg. 169.254.32.4）
 
 ![](./imgs/avahi-browse.png)
 
-
 ## `httpie` 方法
+
+> 新固件override后面不要放/
 
 ### 1.安装 httpie
 
@@ -41,7 +42,7 @@
 ### 2.验证IP是否为静态IP，命令行输入
 
 ```bash
-http http://[雷达当前IP地址]/api/v1/system/network/ipv4/override/
+http http://[雷达当前IP地址]/api/v1/system/network/ipv4/override
 ```
 
 ![](./imgs/check_ip_status.png)
@@ -49,19 +50,19 @@ http http://[雷达当前IP地址]/api/v1/system/network/ipv4/override/
 ### 3.设置静态IP
 
 ```bash
-echo \"[你想设置的静态IP]/24\" | http PUT http://[雷达当前IP地址]/api/v1/system/network/ipv4/override/
+echo \"[你想设置的静态IP]/24\" | http PUT http://[雷达当前IP地址]/api/v1/system/network/ipv4/override
 ```
 ![](./imgs/set_static_ipv4.png)
 
 ### 4.取消静态IP
 
 ```bash
-http DELETE http://[静态IP]/api/v1/system/network/ipv4/override/
+http DELETE http://[静态IP]/api/v1/system/network/ipv4/override
 ```
 
 ![](./imgs/delete_static_ipv4.png)
 
- 
+
  #### 常见问题
 
 1. **args: List[Union[str, bytes]] = sys.argv**
