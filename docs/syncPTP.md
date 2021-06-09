@@ -18,7 +18,7 @@ write_config_txt
 
 ## 计算机PTP快速配置
 
-请参考《用户手册》中[相关章节](https://drive.weixin.qq.com/s?k=AEYARQeBAAYIl11SB4AE4AvQanABU)。
+请参考《用户手册》中[相关章节](https://drive.weixin.qq.com/s?k=AEYARQeBAAYy6dZVMzAE4AvQanABU)。
 
 ---
 [回首页](README)

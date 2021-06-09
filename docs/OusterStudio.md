@@ -22,6 +22,7 @@
 ### Windows Studio 配置注意事项：
 
 - 如果发现报错，先检查线缆连接与供电，然后用浏览器访问OS1-SN.local或OS-SN.local检查一下是否可以访问，同时Ping一下对应IP或host
+- 注意重新载入文件时候，是否路径当中有中文
 - 基本介绍：https://ouster.com/products/software/ouster-studio-visualizer/
 
 
