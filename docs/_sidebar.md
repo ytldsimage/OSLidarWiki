@@ -18,6 +18,7 @@
     - **[Ouster Studio](/OusterStudio)**
 - **数据体系**
     - [数据结构](datastructure.md)
+    - [数据样例](https://ouster.com/zh-cn/resources/lidar-sample-data/os-sample-data/download/)
     - [激光雷达坐标系](coordinate.md)
     - **[ASIC2019资源](/asic2019)**
     - **[ASIC2020资源](/asic2020)**
