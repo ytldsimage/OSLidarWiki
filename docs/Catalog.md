@@ -2,6 +2,8 @@
 
 > datasheet & catalog，有问题请加微信：Kungfuas
 >
+> 详细文档：https://ouster.com/downloads/
+>
 > ![image-20200917195236547](catalog.assets/image-20200917195236547.png)
 
 - ### Datasheet:

@@ -4,7 +4,7 @@
 >
 > ASIC2019：https://www.paraview.org/ousterstudio/
 >
-> ASIC2020：[MacOS](https://data.ouster.io/ouster-studio/OusterStudio-3.6.0-984-g4ccd2d2-20200925-Darwin-64bit.dmg?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)    [WinOS](https://data.ouster.io/ouster-studio/OusterStudio-3.6.0-984-g4ccd2d23d-20200925-Windows-64bit.exe?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)    [Ubuntu](https://data.ouster.io/ouster-studio/OusterStudio-3.6.0-984-g4ccd2d2-20200925-Linux-64bit.tar.gz?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
+> ASIC2020：https://ouster.com/downloads/
 >
 > [操作手册](https://ouster.atlassian.net/wiki/spaces/SUPPORT/pages/924090373?atlOrigin=eyJpIjoiNTk4MWFjMjk3MzgxNGRlNzg0NjI5Njc0OGY3ODkwN2IiLCJwIjoiYyJ9)：
 >

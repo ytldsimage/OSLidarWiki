@@ -2,7 +2,7 @@
 
 > 需要[其他文档](https://ouster.com/downloads/)，有问题请加微信：Kungfuas
 
-CAD: https://ouster.box.com/s/myu8t5ji259eo0bvh3blxic8no046x7x
+## 最新CAD文档: https://ouster.com/downloads/
 
 - 雷达主体：
   - [OS0](https://data.ouster.io/downloads/sensor-cad-models/sensor-cad-revc-os0.zip?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)
