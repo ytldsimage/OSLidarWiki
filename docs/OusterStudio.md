@@ -2,9 +2,9 @@
 
 > 由于该软件是我们委托第三方开发，不像OusterViz原生开发，与VLP同底层，而OS Lidar 相对VLP增加了环境光数据及惯导数据，所以在win下兼容性不是很好，我们更推荐采用我们自己开发的OusterViz~
 >
-> ASIC2019：https://www.paraview.org/ousterstudio/
+> fw1.13或更早：https://www.paraview.org/ousterstudio/
 >
-> ASIC2020：https://ouster.com/downloads/
+> Fw1.14或更新：https://ouster.com/downloads/
 >
 > [操作手册](https://ouster.atlassian.net/wiki/spaces/SUPPORT/pages/924090373?atlOrigin=eyJpIjoiNTk4MWFjMjk3MzgxNGRlNzg0NjI5Njc0OGY3ODkwN2IiLCJwIjoiYyJ9)：
 >
