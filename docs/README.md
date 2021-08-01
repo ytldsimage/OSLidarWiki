@@ -11,7 +11,7 @@
 ---
 **具体咨询**
 
-![OSWIKI](http://www.ifread.com/img/fdcf8291893e720a6d76acf37b16d581/ifread.jpeg)
+![OSWIKI](http://www.ifread.com/img/dbd08d42e068bbb3f21b60d84aeb32b5/ifread.jpeg)
 
 ![image-20210410212521587](README.assets/image-20210410212521587.png)
 
