@@ -149,7 +149,9 @@ reinitialize
 如果需要雷达上电后直接向固定地址输出数据，实现**单播/广播/组播**功能，则在设置`udp_ip`参数并重新初始化后，保存该配置：
 
 ```bash
-write_config_txt
+#The command write_config_txt will be deprecated in a future firmware. The command save_config_params provides the same response.
+#write_config_txt  
+save_config_params
 ```
 
 如果不知道目标IP地址，则可以使用命令`set_udp_dest_auto`，该命令让总动配置雷达将数据发送到发出该命令的地址。
