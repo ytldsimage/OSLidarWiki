@@ -11,13 +11,13 @@
     - [配置动态IP](dhcp.md)
     - [设置静态IP](staticIP.md)
     - [网络连接](network.md)
-    - [Tcpdump采集网口数据](/Tcpdump.md)
-    - [TCP命令配置雷达](tcpCommand.md)
+    - [Tcpdump网口侦听](/Tcpdump.md)
 - **客户端**
     - [Ouster Visualiser](https://ros.oslidar.com)
     - [Ouster ROS](https://ros.oslidar.com)
     - [Ouster Studio](/OSStudioQC.md)
-    - [浏览器GUI](LidarConfig)
+    - [浏览器GUI配置](LidarConfig)
+    - [TCP命令行配置](tcpCommand.md)
 - **数据体系**
     - [数据结构](datastructure.md)
     - [数据样例](https://ouster.com/zh-cn/resources/lidar-sample-data/os-sample-data/download/)
