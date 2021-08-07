@@ -4,7 +4,7 @@
 
 ## 1. 确保电脑与雷达连通
 
-具体方法请参看《如何查询雷达IP并连接_HowToQueryLidarIPv4Address&Connect》。
+具体方法请参看[《如何查询雷达IP并连接》](NetworkIP)。
 
 ## 2. 配置雷达参数
 

@@ -10,7 +10,7 @@
 - **网络相关**
     - [配置动态IP](dhcp.md)
     - [设置静态IP](staticIP.md)
-    - [网络连接](network.md)
+    - [网络连接](NetworkIP)
     - [Tcpdump网口侦听](/Tcpdump.md)
 - **客户端**
     - [Ouster Visualiser](https://ros.oslidar.com)

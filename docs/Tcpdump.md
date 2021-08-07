@@ -2,7 +2,7 @@
 
 # Tcpdump采集网口端数据
 
-
+> 有问题请加微信：Kungfuas
 
 1. 停止所有雷达点云数据流（data streaming），不要运行ROS驱动、Ouster Visualizer、OusterStudio等;
 
