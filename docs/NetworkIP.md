@@ -36,7 +36,7 @@
 
 ![image005](NetworkIP.assets/image005.png)
 
-### 1.1.3 通过下载安装 [**Bonjour**](https://eyun.baidu.com/s/3kWjPGSB) 工具使用 `dns-sd` 命令。例：
+### 1.1.3 通过 [**Bonjour**](https://eyun.baidu.com/s/3kWjPGSB) 使用 `dns-sd` 命令：
 
 ```bash
 dns-sd -G v4v6 os-xxxxx.local
