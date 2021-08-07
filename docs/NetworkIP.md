@@ -44,13 +44,13 @@ dns-sd -G v4v6 os-xxxxx.local
 
 ![win dns-sd](imgs/win_dns-sd.png)
 
-## 1.2   Linux系统
+### 1.2   Linux系统
 
 > 无论是 UDP 还是 TCP，在和雷达通讯前都需要为雷达分配一个本机网络下的可用IPv4地址。下面是不同系统寻找雷达IP地址的方法：
 >
 > ### Ubuntu - avahi-browse
 
-### 1.2.1   用avahi-browse命令查询雷达IP
+#### 1.2.1   用avahi-browse命令查询雷达IP
 
 > 新建一个终端窗口，输入 `avahi-browse -lr _roger._tcp` 来查询雷达IP，大部分情况下可以直接获得IPv4地址。注意：有时候需要连续运行2~3次这个命令才会显示出IPv4地址。
 
@@ -71,7 +71,7 @@ dns-sd -G v4v6 os-xxxxx.local
 
 
 
-### 1.2.2   用OusterStudio或Wireshark查询雷达IP
+#### 1.2.2   用OusterStudio或Wireshark查询雷达IP
 
 Linux下使用OusterStudio或者Wireshark查询雷达IP的方法与上面介绍的Windows下的操作方法差不多，这里不再详述。对于OusterStudio，安装包解压后可以直接运行OusterStudio/bin/OusterStudio这个可执行程序。初次运行时可能需要通过命令行方式在终端窗口中启动该程序，如果弹出错误信息，可按照相应说明补充安装某些动态库后再启动一次。
 
