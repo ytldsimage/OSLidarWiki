@@ -37,3 +37,5 @@
 - OS1 底板： https://drive.weixin.qq.com/s?k=AEYARQeBAAYfreJcWhAE4AvQanABU
 - 设计指导：https://drive.weixin.qq.com/s?k=AEYARQeBAAYH0p1eNvAE4AvQanABU
 - 双重坐标系：https://drive.weixin.qq.com/s?k=AEYARQeBAAYdJsl8szAE4AvQanABU
+- [Clamshell](https://drive.weixin.qq.com/s?k=AEYARQeBAAYdlWiK3C)：https://drive.weixin.qq.com/s?k=AEYARQeBAAYmU6ynjs
+

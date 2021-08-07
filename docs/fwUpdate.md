@@ -1,5 +1,7 @@
 # 固件升级指引
 
+> PDF手册：https://drive.weixin.qq.com/s?k=AEYARQeBAAY9mZ599R
+>
 > 有问题请加微信：Kungfuas
 
 ## 1. 确保电脑与雷达连通

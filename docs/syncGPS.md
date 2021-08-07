@@ -1,6 +1,6 @@
 # GNSS NMEA 时间同步
 
-> 说明文档：https://drive.weixin.qq.com/s?k=AEYARQeBAAYqtncKh3AE4AvQanABU
+> 说明文档：https://drive.weixin.qq.com/s?k=AEYARQeBAAYjg6gCNx
 
 ## 设置 GPS/GNSS
 

@@ -1,5 +1,7 @@
 #  Ouster雷达PTP时间同步配置操作说明
 
+> 技术手册：https://drive.weixin.qq.com/s?k=AEYARQeBAAYtYJOi4o
+>
 > 时间参数：https://drive.weixin.qq.com/s?k=AEYARQeBAAYAxuUPw9AE4AvQanABU
 >
 > - PTP sync accuracy：≤200 μs
