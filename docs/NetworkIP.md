@@ -10,6 +10,8 @@
 
 ### 1.1   Windows系统
 
+> 注意防火墙状态，wifi ip冲突等。
+
 #### 1.1.1   用OusterStudio扫描出雷达IP
 
 - 到Ouster官网下载最新的OusterStudio并安装：https://ouster.com/downloads/
