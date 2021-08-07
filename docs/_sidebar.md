@@ -17,7 +17,6 @@
     - [Ouster Visualiser](https://ros.oslidar.com)
     - [Ouster ROS](https://ros.oslidar.com)
     - [Ouster Studio](/OSStudioQC.md)
-    - [FirmwareUpdate](/fwUpdate)
 - **数据体系**
     - [数据结构](datastructure.md)
     - [数据样例](https://ouster.com/zh-cn/resources/lidar-sample-data/os-sample-data/download/)
@@ -29,6 +28,8 @@
     - [PTP 时间同步](syncPTPs.md)
     - **[内部晶振同步](/osc)**
 - [**常见故障排除**](troubleshooting.md)
+    - [日志提取](/log)
+    - [固件升级](/fwUpdate)
 - **常见问题**
     - **[Webslam免费在线建图](/webslam)**
     - **[其他开源SLAM工具](/OSlam)**
