@@ -17,6 +17,7 @@
     - [Ouster Visualiser](https://ros.oslidar.com)
     - [Ouster ROS](https://ros.oslidar.com)
     - [Ouster Studio](/OSStudioQC.md)
+    - [浏览器GUI](LidarConfig)
 - **数据体系**
     - [数据结构](datastructure.md)
     - [数据样例](https://ouster.com/zh-cn/resources/lidar-sample-data/os-sample-data/download/)
