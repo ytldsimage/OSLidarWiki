@@ -23,7 +23,7 @@
 
 ![image002](NetworkIP.assets/image002.png) 
 
-### 1.1.2   用Wireshark抓包查询雷达IP
+#### 1.1.2   用Wireshark抓包查询雷达IP
 
 - 先下载Wireshark软件安装包：https://www.wireshark.org
 - 打开Wireshark并双击与雷达相连的网卡，Wireshark即开始分析该网口处接收的数据包
@@ -38,7 +38,7 @@
 
 ![image005](NetworkIP.assets/image005.png)
 
-### 1.1.3 通过 **Bonjour** 使用 `dns-sd` 命令
+#### 1.1.3 通过 **Bonjour** 使用 `dns-sd` 命令
 
 > [云盘下载地址](https://eyun.baidu.com/s/3kWjPGSB)
 
