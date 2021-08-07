@@ -48,7 +48,6 @@ dns-sd -G v4v6 os-xxxxx.local
 
 > 无论是 UDP 还是 TCP，在和雷达通讯前都需要为雷达分配一个本机网络下的可用IPv4地址。下面是不同系统寻找雷达IP地址的方法：
 >
-> ### Ubuntu - avahi-browse
 
 #### 1.2.1   用avahi-browse命令查询雷达IP
 
