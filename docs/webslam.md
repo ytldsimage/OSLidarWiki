@@ -8,6 +8,8 @@
    -  https://cloudcompare.org/  ===》[数据格式转换](https://pcap2bag.lidar.plus)
       - kaarta cloud or the pcl_ros package + CloudCompare
       - web-slam + CloudCompare on the resulting PLY output
+   -  [Run A-LOAM with the Ouster SDK recorded bag/pcap](A-LOAM)
+   -  [Run Lego-LOAM with the Ouster SDK recorded bag_pcap](Lego-LOAM)
 
    
 
