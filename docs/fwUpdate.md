@@ -10,7 +10,7 @@
 
 直接在浏览器中输入雷达IP并回车，就可以登录上雷达。默认显示的是Dashboard页面。
 
-![image-20210807152854347](fwUpdate.assets/image-20210807152854347.png)
+![image-20210807152854347](fwUpdate.assets/image001.png)
 
 ## 3. 确认雷达固件版本号并升级固件
 
