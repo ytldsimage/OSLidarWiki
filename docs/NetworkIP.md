@@ -109,7 +109,9 @@ dns-sd -L "instance name" "_roger._tcp
 
 ### 2.1   Windows系统
 
-首先按Windows键+X并选择Command Prompt来打开一个命令窗口，或者在开始菜单出搜索cmd来打开该窗口。在窗口中输入ipconfig后敲回车，确认与雷达相连的网卡IP地址是否与雷达的IP同一个网段。如果不在同一个网段，则需要修改该网口的IP。
+首先按Windows键+X并选择Command Prompt来打开一个命令窗口，或者在开始菜单出搜索cmd来打开该窗口。在窗口中输入`ifconfig | grep inet` 后敲回车，确认与雷达相连的网卡IP地址是否与雷达的IP同一个网段。如果不在同一个网段，则需要修改该网口的IP。
+
+
 
 ![win ip](imgs/win_ipconfig.png)
 
