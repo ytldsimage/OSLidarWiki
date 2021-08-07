@@ -26,7 +26,7 @@
     - **[ASIC2020资源](/asic2020)**
 - **时间同步**
     - [GPS 时间同步](syncGPS.md)
-    - [PTP 时间同步](syncPTP.md)
+    - [PTP 时间同步](syncPTPs.md)
     - **[内部晶振同步](/osc)**
 - [**常见故障排除**](troubleshooting.md)
 - **常见问题**
