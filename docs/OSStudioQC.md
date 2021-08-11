@@ -2,6 +2,10 @@
 
 > 由于该软件是我们委托第三方开发，不像OusterViz原生开发，与VLP同底层，而OS Lidar 相对VLP增加了环境光数据及惯导数据，所以在win下兼容性不是很好，我们更推荐采用我们自己开发的OusterViz~
 >
+> 提示：Linux下记得chmod到可执行权限!!! 然后cd bin/，sudo ./Ousterstudio！！！
+>
+> 提示：安装时候注意，避免中文或全角字符路径！！
+>
 > fw1.13或更早：https://www.paraview.org/ousterstudio/
 >
 > Fw1.14或更新：https://ouster.com/downloads/
@@ -13,7 +17,7 @@
 
 ## 1. 确保电脑与雷达连通
 
-具体方法请参看《如何查询雷达IP并连接_HowToQueryLidarIPv4Address&Connect》。
+具体方法请参看[《如何查询雷达IP并连接》](NetworkIP)。
 
 - ### Windows Studio 连接注意事项：
 
