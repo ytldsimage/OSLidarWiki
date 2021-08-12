@@ -29,7 +29,7 @@
     - [PTP 时间同步](syncPTPs.md)
     - **[内部晶振同步](/osc)**
 - [**常见故障排除**](troubleshooting.md)
-    - [日志提取](/log)
+    - [日志提取](/logs)
     - [固件升级](/fwUpdate)
 - **常见问题**
     - **[Webslam免费在线建图](/webslam)**
