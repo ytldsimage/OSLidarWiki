@@ -10,7 +10,7 @@
 
    OS雷达的标定文件每个都不同，可以通过TCP命令或者Ouster Studio直接从雷达内部读取出来：
 
-   - Studio: 连接雷达时候扫描后出现的json，或者保存pcap数据时会提示在同一个文件夹下同时保存这个.calib文件
+   - Studio: 连接雷达时候扫描后出现的json，或者保存pcap数据时会提示在同一个文件夹下同时保存这个.calib或.json文件
 
    - TCP CMD：参考[API Guide](https://data.ouster.io/beta-program/v1.14-beta-11/Ouster-Sensor-API-Guide-v1.14.0-beta.11.pdf)，例如 get_lidar_intrinsics，get_beam_intrinsics等~ 
 
