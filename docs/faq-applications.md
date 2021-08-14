@@ -11,7 +11,17 @@
    OS雷达的标定文件每个都不同，可以通过TCP命令或者Ouster Studio直接从雷达内部读取出来：
 
    - Studio: 连接雷达时候扫描后出现的json，或者保存pcap数据时会提示在同一个文件夹下同时保存这个.calib文件
+
    - TCP CMD：参考[API Guide](https://data.ouster.io/beta-program/v1.14-beta-11/Ouster-Sensor-API-Guide-v1.14.0-beta.11.pdf)，例如 get_lidar_intrinsics，get_beam_intrinsics等~ 
+
+   - ROS：工作目录默认路径在`${ROS_HOME}` 也就是`$HOME/.ROS`，所以如果`metadata`设定的是相对路径，会放在该目录内，否则，请指定绝对路径：
+
+     ```
+     roslaunch ouster_ros ouster.launch sensor_hostname:=<sensor hostname> \
+                                        udp_dest:=<udp data destination> \
+                                        metadata:=<path to metadata json> \
+                                        lidar_mode:=<lidar mode> viz:=<viz>
+     ```
 
 2. 默认标准线材是多长的？最长可多长？是否符合低煙無鹵（Low smoke zero halogen）簡稱LSZH 要求？
 
