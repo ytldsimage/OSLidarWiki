@@ -2,13 +2,15 @@
 
 > 由于该软件是我们委托第三方开发，不像OusterViz原生开发，与VLP同底层，而OS Lidar 相对VLP增加了环境光数据及惯导数据，所以在win下兼容性不是很好，我们更推荐采用我们自己开发的OusterViz~
 >
-> 提示：Linux下记得chmod到可执行权限!!! 然后cd bin/，sudo ./Ousterstudio！！！
+> 提示：Linux下记得chmod到可执行权限!!! 然后`cd bin/`，`sudo ./Ousterstudio`！！！
 >
 > 提示：安装时候注意，避免中文或全角字符路径！！
 >
 > fw1.13或更早：https://www.paraview.org/ousterstudio/
 >
-> Fw1.14或更新：https://ouster.com/downloads/
+> Fw1.14或更新：[WinOS](https://drive.weixin.qq.com/s?k=AEYARQeBAAYG2P71zt)，[MacOS](https://drive.weixin.qq.com/s?k=AEYARQeBAAY0N0OOFN)，[Linux](https://drive.weixin.qq.com/s?k=AEYARQeBAAYKrN45Tr)
+>
+> 其他资料：https://ouster.com/downloads/
 >
 > [操作手册](https://ouster.atlassian.net/wiki/spaces/SUPPORT/pages/924090373?atlOrigin=eyJpIjoiNTk4MWFjMjk3MzgxNGRlNzg0NjI5Njc0OGY3ODkwN2IiLCJwIjoiYyJ9)：
 >
