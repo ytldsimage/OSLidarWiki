@@ -10,6 +10,10 @@
       - web-slam + CloudCompare on the resulting PLY output
    -  [Run A-LOAM with the Ouster SDK recorded bag/pcap](A-LOAM)
    -  [Run Lego-LOAM with the Ouster SDK recorded bag_pcap](https://drive.weixin.qq.com/s?k=AEYARQeBAAYSj0n9cK)
+   -  [IMU 二次标定](https://github.com/shenshikexmu/IMUCalibration-Gesture)：
+      -  [A robust and easy to implement method for IMU calibration without external equipments](https://ieeexplore.ieee.org/document/6907297 ) 
+      -  [IMU 标定 | 工业界和学术界有什么不同？](https://tianchi.aliyun.com/forum/postDetail?postId=77437)
+      -  [IMU校正以及姿态融合](https://blog.csdn.net/shenshikexmu/article/details/80013444)
 
    
 
