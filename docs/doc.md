@@ -36,6 +36,10 @@
     - 附件：https://drive.weixin.qq.com/s?k=AEYARQeBAAY5W3Zb10AE4AvQanABU
 - OSHK License:    https://drive.weixin.qq.com/s?k=AEYARQeBAAYGnF6o8CAE4AvQanABU
 - OSSZ License：  https://drive.weixin.qq.com/s?k=AEYARQeBAAY0a0nRKEAE4AvQanABU
+  - SZO 付款账号：
+    - 账户名称: 皓视光子（苏州）智能科技有限公司
+      开户行：汇丰银行有限公司苏州分行
+      账号：630-008324-011
 - 投资人相关: https://drive.weixin.qq.com/s?k=AEYARQeBAAYvXXTrqOAE4AvQanABU
 - 不受控声明：
   - ECCN: EAR99
