@@ -274,6 +274,10 @@
 
     ![img](faq-applications.assets/lJ1NArSDoSHEZpoopc3iF_SqINPSd0XFNHv6ySTAp2Dm1u_Ph-uNB5tQ9ceDER8Tbw34boTXmmgLxywPKLE5NmB3SggvonMEEZFGVLLfn59LDajBQfH3dKADZhxuTU1F9z-i8ZYFJfM.png)
 
+    ![img](faq-applications.assets/RelatedC.png)
+
+    ![img](faq-applications.assets/AbsoluteC.png)
+
 39. 我们政府/公民对隐私比较敏感，不希望雷达当中有环境光相机的存在，OS可以提供移除ambient数据的隐私模式么？
 
     是的，可以的。我们有专门推出移除ambient camera的纯粹雷达点云与强度/反射率信息的方案。

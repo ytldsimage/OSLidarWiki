@@ -14,7 +14,15 @@
 
    传统方案，每个发射端包括对应线数的多颗EELD，每个LD后面带有PCB处理光源的驱动与调制；每个接收端包括对应线数的多颗APD，每个APD后面带有自己的PCBA处理强度采集、AD转换、阈值比较、信噪滤波与计算处理单元；N线机械式激光雷达需要N组IC芯片组：跨阻放大器（TIA）、低噪声放大器（LNA）、比较器（Comparator）、模数转换器（ADC）等。如果采用进口的激光器（典型的如Excelitas的LD）和探测器（典型的如滨松的PD），1K数量下每线激光雷达的成本大约200美元，国产如常用的长春光机所激光器价格能低一些。所以随着线数增加，成本、结构、体积与器件复杂度严重增加，可靠性性指数降低，且每一路信号都需要单独校准标定，批次间一致性差，批次内甚至每个雷达内的像素关系随着时间（温度、振动与结构公差等）都发生变化，比如平均上大多需要至多2000hr就要重新做一次标定。雷达发射只能基于定时发射而无法基于定角发射，VFOV方向是结构化但是轮询畸变数据，HFOV方向直接是非结构化数据。
 
+   ![image-20210822203224630](faq-concepts.assets/image-20210822203224630.png)
+
+   ![image-20210822203248711](faq-concepts.assets/image-20210822203248711.png)
+
+   ![image-20210822203305084](faq-concepts.assets/image-20210822203305084.png)
+
    OS方案，MBF充分发挥了垂直腔面发射激光器（Vertical Cavity Surface Emitting Laser, VCSEL）和单光子雪崩二极管（Single Photon Avalanche Diode, SPAD）的优势，“闪光”指全像素并发发射与并发接收，“多光束”指用精确的光束而非大量泛光来照明整个场景。在可靠性、耐用性、低噪音、高温运行、电气效率、紧凑性、成本、与外围组件的直接集成、由消费电子产业推动的大规模外围研发，以及基本性能方面存在巨大改进空间。
+
+   ![image-20210822203428613](faq-concepts.assets/image-20210822203428613.png)
 
    基于此，无论多少线，OS雷达内永远只有收发合计2枚芯片，发射端用VCSEL将多颗发射单元及后端处理线路放在一颗SOC上，接收端自研Spads ASIC将全部像素及后端处理电路全部聚集在一颗芯片上，随着线数增加，成本、结构、体积、器件复杂度、设备可靠性没有很大变化，一路标定全部标定，一次标定终生标定；相对友商40-100hrs/unit的生产效能，OS每小时就可以完成1部雷达从生产组装到调试标定的全程；像素元芯片内固化锁定，既可定时又可定角发射，VFOV方向是结构化并发无畸变数据，HFOV方向仍然是结构化数据，代表着更高的集成度、可靠性与数据前融合质量。
 
@@ -91,78 +99,94 @@
    - 指的是太阳光的全谱信息的强度
    - 直射目标物体
 
-8. 脉冲dtof，脉冲itof的区别是什么？
+8. 不同的反射方式分别指的是？
 
-   - itof本质上是测相移：
+   ![image-20210822223054662](faq-concepts.assets/image-20210822223054662.png)
 
-   ![image-20200526123527033](faq-concepts.assets/image-20200526123527033.png)
-       
-      ![image-20200526123611446](faq-concepts.assets/image-20200526123611446.png)
-      ![image-20200526123646512](faq-concepts.assets/image-20200526123646512.png)
-       
-      ![image-20200526123702816](faq-concepts.assets/image-20200526123702816.png)
+9. lidar与超声波方案相比有什么区别？
 
-   - dtof 本质是直接TDC计算时间
+   超声波: 距离1-5m，帧率3-5hz，无角分辨，机械波空气介质，对空气湿度敏感，精度在10cm-30cm，要做温飘修正，优点是，对玻璃等物体不敏感，便宜
 
-9. 什么是并联冗余接收，有什么价值？
+10. lidar与相机方案相比有什么区别？
 
-   ![image45](faq-concepts.assets/image45.png)
+    摄像头提供了多通道色彩数据与极高的径向分辨率，能够捕获丰富的纹理细节，在有足够高的数据集进行训练的情况下，可以进行相当多物体的感知与语义识别；
 
-   ![image44](faq-concepts.assets/image44.png)
+    但无论是多目三角测量法，还是单目VIO，首先要解决的是物体特征的提取与匹配，所以对无纹理或者周期纹理或者小于500pixel特征的表面无效或极困难（比如纯白纯黑纯绿，参考[特斯拉毫米波降权摄像头提权之后的频繁车祸)](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652102449&idx=1&sn=8877b48c03acd48870afeff5d1e3ee2e&chksm=f120abc0c65722d6398a49f313728650e8938809545561900208c80202ff15e5143b6e5dde91&mpshare=1&scene=1&srcid=0313xTuxbNV8Jen8QvFZ7x1x&sharer_sharetime=1615620153876&sharer_shareid=f9fc55907139617307cb20b918f6b448&version=3.1.12.90282&platform=mac#rd)，被动感知所以要求良好的光线，对同样环境不同阴影敏感，夜晚雨雾尘霾霜雪高风险（部分也是由于光圈，快门等)，对污染物敏感，帧率偏低，处理器成本高，如果是双目三角法受制于基线长度，越长则有相对更远的测算能力（比如30多米），但是牺牲近程，如果用VIO估算可以更远但数据集要求高，分米级精度，需要高算力，而且单一摄像头非环视，通常120×60为较大，一旦有人群或者别的遮挡部分，锚点失锁，优点是，在理想情况下非常高清的分辨率与纹理细节
 
-   我们每个像素下面其实并联了好多个亚像素，所以即使恶劣环境下，由于种种不可抗力部分或n-1像素瞎了，仍然维持工作，不像其他方案瞎了就是瞎了；这个还可以用于一些更复杂的比如后期pixel-specific filter-powered RGB-ID等场景，同时在不影响信噪比的情况下避免过曝风险。
+11. lidar与4d 毫米波方案有什么区别？
 
-10. 什么叫crosstalk或blooming？OS面阵如何解决串扰？
+    - 毫米波: 调频连续波本身上升沿与下降沿多目标匹配时候容易产生鬼岛效应（无中生有，虚警率高，参见[特斯拉毫米波提权之后的墓地见鬼以及隧道幽灵车](https://mp.weixin.qq.com/s?__biz=MjM5NjI4MTUyMA==&mid=2653697663&idx=1&sn=859bb7145f132c89d6a5d4f625814817&chksm=bd333ba08a44b2b6e5c69741ab6303906cf1d027f3cf7bc74af72c2d5453574c6744e3972912&mpshare=1&scene=1&srcid=0513UyZQIr3fqMSwc6syLsdG&sharer_sharetime=1628914444593&sharer_shareid=cfcd208495d565ef66e7dff9f98764da&version=3.1.12.90282&platform=mac#rd))，角分辨低（国产基本上没有角分辨，进口大陆集团最高3发4收模拟12线，对120°fov意味着10°水平角分辨率大概比激光差百倍vs0.1，纵向多数没有角分辨率，少数堆垛纵向天线（所谓4d毫米波但是比激光雷达仍然差很远），相对于动目标可以多普勒检测，相对静目标检测能力差，小体积物体检测能力差，无法环视，没有纹理，高模糊度方位，优点是对污染物相对高抗性，有原生多普勒速度而不是像dtof激光雷达是2帧位置差分得到速度属于二次衍生；简要说一下：
+    - 普通毫米波没有角分辨率概念，类似一个大号超声，只告诉你低置信率的东西的有无，不告诉你在哪里；
+    - 稍微好些的，比如3发4收模拟12线，比如120°FOV，等价角分辨率在10°左右；
+    - 4D毫米波效果如下：置信度低，虚警率高，角分辨率低，缺乏语义信息，比如与其他传感器比如摄像头捆绑，异构标定外参并不断修正。
+      - ![image46](faq-concepts.assets/image46.gif)
+    - 对比一下lidar数据，不言自明:
+      - ![image71](faq-concepts.assets/image71.gif)
+      - ![image107](faq-concepts.assets/image107.gif)
+      - ![image112](faq-concepts.assets/image112.gif)
 
-   ![image-20201002225321235](faq-concepts.assets/image-20201002225321235.png)
+12. 脉冲dtof，脉冲itof的区别是什么？
 
-   ![image-20201002225403389](faq-concepts.assets/image-20201002225403389.png)
+    - itof本质上是测相移：
 
-   - 芯片内阻隔层
+    ![image-20200526123527033](faq-concepts.assets/image-20200526123527033.png)
+        
+       ![image-20200526123611446](faq-concepts.assets/image-20200526123611446.png)
+       ![image-20200526123646512](faq-concepts.assets/image-20200526123646512.png)
+        
+       ![image-20200526123702816](faq-concepts.assets/image-20200526123702816.png)
 
-   - 像素间亚像素intrinsic offset
+    - dtof 本质是直接TDC计算时间
 
-   - 多层优化（光圈与镜头）的高准直专利光路
+13. 什么是并联冗余接收，有什么价值？
 
-   - Time correlated single photon counting (TCSPC) 时间相关单光子计数及环境阈值比较器
+    ![image45](faq-concepts.assets/image45.png)
 
-   - 固件算法层面处理
+    ![image44](faq-concepts.assets/image44.png)
 
-   - 多次回波设计，如false positive 后面有回波，只接受后面回波，丢弃前置
+    我们每个像素下面其实并联了好多个亚像素，所以即使恶劣环境下，由于种种不可抗力部分或n-1像素瞎了，仍然维持工作，不像其他方案瞎了就是瞎了；这个还可以用于一些更复杂的比如后期pixel-specific filter-powered RGB-ID等场景，同时在不影响信噪比的情况下避免过曝风险。
 
-   - 最新固件已允许客户自行确定滤除blooming力度，以便适应不同场景下需求（fw2.0）
+14. 什么叫crosstalk或blooming？OS面阵如何解决串扰？
 
-     - ```sh
-       set_config_param beta.bloom_reduction_enable true|false    #bit 28 flag in the range word, if 1, potential suspected blooming data
-       ```
+    现象与原因如下：
 
-11. PD, APD与SiPM及spads的工作模式有什么不同？
+    - ![image-20210822223220039](faq-concepts.assets/image-20210822223220039.png)
+    - ![image-20201002225321235](faq-concepts.assets/image-20201002225321235.png)
+    - ![image-20201002225403389](faq-concepts.assets/image-20201002225403389.png)
+
+    解决路线如下：
+
+    - 芯片内阻隔层
+       - 像素间亚像素intrinsic offset
+       - 多层优化（光圈与镜头）的高准直专利光路
+       - Time correlated single photon counting (TCSPC) 时间相关单光子计数及环境阈值比较器
+       - 固件算法层面处理
+       - 多次回波设计，如false positive 后面有回波，只接受后面回波，丢弃前置
+       - 最新固件已允许客户自行确定滤除blooming力度，以便适应不同场景下需求（fw2.0）
+            - `set_config_param beta.bloom_reduction_enable true|false    #bit 28 flag in the range word, if 1, potential suspected blooming data`
+
+15. PD, APD与SiPM及spads的工作模式有什么不同？
 
     - PD – Photodiode, 1光子生1电子对
     - APD – Avalanche photodiode，一般是1光子生百电子
     - SPAD – Single-photon avalanche photodiode == SPPC – Single-pixel photon counter; another name for SPAD，无淬灭电路1光子生无穷，一旦激发就不再对后续光子敏感，仅作开关用
     - SiPM – Silicon photomultiplier == MPPC – Multi-pixel photon counter; another name for SiPM
     - PMT – Photomultiplier tube
+    - ![image-20201002221218177](faq-concepts.assets/pnj.png)
+    - ![image-20201002221557458](faq-concepts.assets/image-20201002221557458.png)
+    - ![image-20201002222552287](faq-concepts.assets/sipm.png)
+    - ![image-20201002222630541](faq-concepts.assets/image-20201002222630541.png)
 
-    ![image-20201002221218177](pnj.png)
+16. SIPM/APD 与 Spads 在测距感知上有什么区别？
 
-    ![image-20201002221557458](faq-concepts.assets/image-20201002221557458.png)
+    - ![image-20201002224052329](faq-concepts.assets/image-20201002224052329.png)
+    - ![image-20201002224106139](faq-concepts.assets/image-20201002224106139.png)
 
-    ![image-20201002222552287](sipm.png)
-
-    ![image-20201002222630541](faq-concepts.assets/image-20201002222630541.png)
-
-12. SIPM/APD 与 Spads 在测距感知上有什么区别？
-
-    ![image-20201002224052329](faq-concepts.assets/image-20201002224052329.png)
-
-    ![image-20201002224106139](faq-concepts.assets/image-20201002224106139.png)
-
-13. lidar 应用于感知有什么优点？
+17. lidar 应用于感知有什么优点？
 
     极低的误报率（无中生有与有中测无），除了**crosstalk (“blooming”)** 时候。
 
-14. 为什么产品手册标记了IP68与IP69K 2个指标？IP68不是已经最高的了么？或者IP69K不是已经覆盖了IP68了么？ 是指的有2种产品规格么？
+18. 为什么产品手册标记了IP68与IP69K 2个指标？IP68不是已经最高的了么？或者IP69K不是已经覆盖了IP68了么？ 是指的有2种产品规格么？
 
     ```pascal
     意味着上述2个防护测试都完全通过：
@@ -174,7 +198,7 @@
     另外一个可能的误解是，满足IP69K意味着自动满足IP67和IP68。其实，IP69K只能够防护冲刷压力，并不适用于浸没在水中的应用。因此，IP69K防护等级往往被用于经常清洗冲刷的应用中，例如酿酒厂，洗车厂和食品饮料厂中，但是并不适合被用于设备完全浸没在水中的场合。
     ```
 
-15. MEMS 微振镜激光雷达有什么缺点？
+19. MEMS 微振镜激光雷达有什么缺点？
 
     首先，MEMS微振镜不是没有机械部件，只是宏观不可见，而采用压电/热电/磁致伸缩材料来实现微观上的振动，而且由于其需要经过一个加减速与平台阶段，其单一振镜的有效角度极小（仅平台部分），而且其抗振/抗震等长期可靠性指标一直备受质疑。
 
@@ -182,7 +206,7 @@
 
     最后，由微振镜扫描而产生的点云仍然为非机构化数据，无法如图OS技术路线一样GID物理级前渲染，雷视一体高度结构化。
 
-16. 什么叫时空锁定机制，有什么价值？
+20. 什么叫时空锁定机制，有什么价值？
 
     空间锁定：所有像素关系终生固化为芯片内部，不像其他方案：手动挨个装一堆，然后同一部设备不超过2000hr就需要重新标定一次，如果环境恶劣可能是几百小时就得重新标定，更不提批次间不一致; 
 

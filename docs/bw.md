@@ -46,5 +46,7 @@
 35. bilateral：双边的
 36. What is the latency/ response time of the sensor?
     Latency is 0.95-3.8 ms depending on the model you’re using. The wider the field of view, the longer the latency.
-37. 
+37.  In the very short range (<2 m for the OS0, <5 m for the OS1) our reflectivity data is improved but still not perfectly accurate.Additionally, customers will see that across 360° FoV of a sensor, reflectivity will vary some. 
+38. ![image-20210822012027549](bw.assets/image-20210822012027549.png)
+39. 
 
