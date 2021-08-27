@@ -45,9 +45,10 @@
 
     - https://github.com/googlecartographer/cartographer
     - https://github.com/laboshinl/loam_velodyne
-    - https://github.com/erik-nelson/blam
     - https://github.com/simondlevy/BreezySLAM
     - https://github.com/OpenSLAM-org
-    - https://github.com/ytldsimage/LIO-SAM
+    - https://github.com/erik-nelson/blam
+    - https://github.com/TixiaoShan/LIO-SAM
+    - https://github.com/hku-mars/FAST_LIO
     - https://arxiv.org/abs/1705.09785
 

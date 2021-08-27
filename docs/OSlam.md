@@ -1,6 +1,17 @@
 # 常见开源建图方案
 
 > 本文节选自图书《视觉SLAM十四讲：从理论到实践》
+>
+> OSLidar 验证可用方案为:
+>
+> - https://github.com/googlecartographer/cartographer
+> - https://github.com/laboshinl/loam_velodyne
+> - https://github.com/simondlevy/BreezySLAM
+> - https://github.com/OpenSLAM-org
+> - https://github.com/erik-nelson/blam
+> - https://github.com/TixiaoShan/LIO-SAM
+> - https://github.com/hku-mars/FAST_LIO
+> - https://arxiv.org/abs/1705.09785
 
 **一，MonoSLAM**
 
