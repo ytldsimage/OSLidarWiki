@@ -14,6 +14,7 @@
       -  [A robust and easy to implement method for IMU calibration without external equipments](https://ieeexplore.ieee.org/document/6907297 ) 
       -  [IMU 标定 | 工业界和学术界有什么不同？](https://tianchi.aliyun.com/forum/postDetail?postId=77437)
       -  [IMU校正以及姿态融合](https://blog.csdn.net/shenshikexmu/article/details/80013444)
+   -  [异构传感器联合标定](SensorCal)
 
    
 
