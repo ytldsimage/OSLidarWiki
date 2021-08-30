@@ -12,6 +12,10 @@
 - 电压: 3.3 - 15V (最小电流5mA)
 - 目前已经支持以1部GNSS驱动多枚雷达（PPS out is driving when MIO was set as input ）
 - 同步结束后自1970年计时，否则以开机时间计时
+- PPS对齐有相位对齐与频率对齐两种，前者是绝对对齐，以上升沿为标记，后者不要求频率或相位都一致，只需要其保持固定的或成比例的差别。对OS而言，是PPS上升沿对齐，绝对相位对齐。
+- 收GPRMC数据的接口是TTL电平么？
+  - 可参考[文档](https://drive.weixin.qq.com/s?k=AEYARQeBAAYPgEUwdTAE4AvQanABU)，标准的nmea信号电压是0~5V范围的TTL电压，但是fw1.14b14之后实际基本能覆盖常见的RS232电平。
+  - 至于active_high或者active_low是指PPS上升沿还是下降沿有效，主要由GNSS接收机决定，理论上active_high和active_low都有可能，但是RS232很多都是active_low；注意这里与logic_low和logic_high的电压定义不同，logic_low和logic_high指的是二进制位0和1对应的电压状态。
 
 **注意** 如果GPS电压不能满足上述最小电压，请参照[《硬件指南》3.2章节](https://data.ouster.io/downloads/hardware-user-manual/hardware-user-manual-revc-os1.pdf?__hstc=34987006.3b498ee11237b4e28da832cc795fa6b7.1603177544769.1606967208102.1607045278647.6&__hssc=34987006.1.1607045278647&__hsfp=3202914155)制作额外的升压电路。
 
