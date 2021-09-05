@@ -151,6 +151,12 @@
 
     对强光而言，相对于VLP日夜量程差距有20%，我们仅仅10-15%，这还是在850/865nm vs 905nm的情况下。
 
+    ![image1-4](faq-applications.assets/image1-4.gif)
+
+    ![image3-4](faq-applications.assets/image3-4.gif)
+
+    ![image4](faq-applications.assets/image4.gif)
+
 24. 对传统AGV与激光叉车而言，升级到Ouster方案的效益体现在哪里？
 
     - 如果是针对比如磁钉、二维码或GNSS方案，对原来场地的破坏小、铺设成本低，而且传统方案是无法区分来自实时动态的环境

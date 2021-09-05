@@ -55,4 +55,9 @@
 - 90degReconnector:
 
    ![image-20210811102358714](cad.assets/image-20210811102358714.png)
+   
+- 默认568B接线
+
+   - ![wecom-temp-0f308102c4ca258f39012c5be81dd3df](cad.assets/wecom-temp-0f308102c4ca258f39012c5be81dd3df.png)
+   - ![wecom-temp-b68ae8da59a8fa429cd37a893a329367](cad.assets/wecom-temp-b68ae8da59a8fa429cd37a893a329367.png)
 
