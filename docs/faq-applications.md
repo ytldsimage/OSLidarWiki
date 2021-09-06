@@ -153,9 +153,15 @@
 
     ![image1-4](faq-applications.assets/image1-4.gif)
 
+    ![image4](faq-applications.assets/image4.gif)
+
     ![image3-4](faq-applications.assets/image3-4.gif)
 
-    ![image4](faq-applications.assets/image4.gif)
+    ![image5-2](faq-applications.assets/image5-2.gif)
+
+    ![image2-3](faq-applications.assets/image2-3.gif)
+
+    ![image7](faq-applications.assets/image7.gif)
 
 24. 对传统AGV与激光叉车而言，升级到Ouster方案的效益体现在哪里？
 
