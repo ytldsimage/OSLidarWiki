@@ -16,6 +16,8 @@
 
    - ROS：工作目录默认路径在`${ROS_HOME}` 也就是`$HOME/.ROS`，所以如果`metadata`设定的是相对路径，会放在该目录内，否则，请指定绝对路径：
 
+     > 此处特别注意，不要采用了相对路径，但是该文件夹或路径其实并不存在，容易报错！！！
+
      ```
      roslaunch ouster_ros ouster.launch sensor_hostname:=<sensor hostname> \
                                         udp_dest:=<udp data destination> \
