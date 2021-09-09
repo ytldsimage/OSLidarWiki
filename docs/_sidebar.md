@@ -29,6 +29,7 @@
     - [GPS 时间同步](syncGPS.md)
     - [PTP 时间同步](SyncPTPs)
     - **[内部晶振同步](/osc)**
+    - [基于ROS时间](/SyncROS)
 - [**常见故障排除**](troubleshooting.md)
     - [日志提取](/logs)
     - [固件升级](/fwUpdate)
