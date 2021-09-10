@@ -4,6 +4,8 @@
 >
 > 时间参数：https://drive.weixin.qq.com/s?k=AEYARQeBAAYAxuUPw9AE4AvQanABU
 >
+> ![时间相关参数](SyncPTPs.assets/%E6%97%B6%E9%97%B4%E7%9B%B8%E5%85%B3%E5%8F%82%E6%95%B0.png)
+>
 > - PTP sync accuracy：≤200 μs
 > - PTP clock drift after disconnection： ≤10 μs/s
 > - lidar设置好PTP同步后，并不会自动同步起来，还需要执行一个命令使得网卡作为grand master向lidar发送时间同步的message, ` sudo ptpd -i <网卡名> - M ` ,执行后，再通过get_time_info看一下时间是否正确,或者启动data streaming，用 rostopic echo /os_cloud_node/points/header/stamp看一下时间戳对不
