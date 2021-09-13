@@ -1,6 +1,8 @@
 # **Webslam免费在线建图**
 
 > 免费在线建图SLAM，有问题请加微信：Kungfuas
+>
+> Webslam基于openGL，https://www.glfw.org/ & http://glew.sourceforge.net/。
 
 1. ### 建图网址：
 
