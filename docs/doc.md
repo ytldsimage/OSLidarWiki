@@ -40,6 +40,7 @@
     - 账户名称: 皓视光子（苏州）智能科技有限公司
       开户行：汇丰银行有限公司苏州分行
       账号：630-008324-011
+    - ![image-20211010184345155](doc.assets/image-20211010184345155.png)
 - 投资人相关: https://drive.weixin.qq.com/s?k=AEYARQeBAAYvXXTrqOAE4AvQanABU
 - 不受控声明：
   - ECCN: EAR99
