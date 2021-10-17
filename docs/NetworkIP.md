@@ -12,7 +12,15 @@
 
 ### 1.1   Windows系统
 
-> 注意防火墙状态，wifi ip冲突等。
+> 注意[防火墙](https://pureinfotech.com/allow-apps-firewall-windows-10/)状态（不能仅仅是简单关掉！！），wifi ip冲突等。
+>
+> ![image-20211017181801626](NetworkIP.assets/image-20211017181801626.png)
+>
+> ![image-20211017181821474](NetworkIP.assets/image-20211017181821474.png)
+>
+> ![image-20211017181837891](NetworkIP.assets/image-20211017181837891.png)
+>
+> ![image-20211017181928070](NetworkIP.assets/image-20211017181928070.png)
 
 #### 1.1.1   用OusterStudio扫描出雷达IP
 
