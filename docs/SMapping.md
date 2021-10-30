@@ -8,6 +8,8 @@
 
 ![[image-20211030184445340](/9_GoSLAM DS100产品介绍1.1)](SMapping.assets/image-20211030184445340.png)
 
+![[image-20211030184918713](http://mp.weixin.qq.com/s?__biz=MzI5OTE1NjUxNg%3D%3D&mid=2649276654&idx=1&sn=2256d4ca0df2e8a4659118382311aec2&chksm=f486b5a5c3f13cb3d77f1ec20b426a5ea319f53dfe8113083ed1c7c653df41cfcefb9ec27e0c&mpshare=1&scene=1&srcid=0618U1Yc0IeVrfjSFQlQmCbs&sharer_sharetime=1624011134557&sharer_shareid=f9fc55907139617307cb20b918f6b448&version=3.1.18.90318&platform=mac#rd)](SMapping.assets/image-20211030184918713.png)
+
 ![wecom-temp-375fc11b23f9298f5ec5cb07bbdb640d](SMapping.assets/wecom-temp-375fc11b23f9298f5ec5cb07bbdb640d.jpg)
 
 ![wecom-temp-70f8be30bfa00ee2be32f5bcec782e9d](SMapping.assets/wecom-temp-70f8be30bfa00ee2be32f5bcec782e9d.jpg)
