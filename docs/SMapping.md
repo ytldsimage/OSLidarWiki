@@ -6,17 +6,31 @@
 
 ![wecom-temp-f56e3d97a970fa7f34c59e07307cebd1](SMapping.assets/wecom-temp-f56e3d97a970fa7f34c59e07307cebd1.png)
 
+![[image-20211030184445340](/9_GoSLAM DS100产品介绍1.1)](SMapping.assets/image-20211030184445340.png)
+
 ![wecom-temp-375fc11b23f9298f5ec5cb07bbdb640d](SMapping.assets/wecom-temp-375fc11b23f9298f5ec5cb07bbdb640d.jpg)
+
+![wecom-temp-70f8be30bfa00ee2be32f5bcec782e9d](SMapping.assets/wecom-temp-70f8be30bfa00ee2be32f5bcec782e9d.jpg)
+
+![wecom-temp-0810a5a98bea1fc660f93b8024bfc5cd](SMapping.assets/wecom-temp-0810a5a98bea1fc660f93b8024bfc5cd.jpg)
 
 ![企业微信截图_418b4fde-14f0-40b3-94d5-4757004c0837](SMapping.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_418b4fde-14f0-40b3-94d5-4757004c0837.png)
 
 ![wecom-temp-69d43756f1953a88cf2221ee733882fa](SMapping.assets/wecom-temp-69d43756f1953a88cf2221ee733882fa.png)
 
+![wecom-temp-d36e2758c7fa805c776d11b80d6ff8d9](SMapping.assets/wecom-temp-d36e2758c7fa805c776d11b80d6ff8d9.png)
+
 ![wecom-temp-be02507d091c9fbc9ab04b4d07b84c3c](SMapping.assets/wecom-temp-be02507d091c9fbc9ab04b4d07b84c3c.png)
 
 ![wecom-temp-0bde637062b9e750848b4f00bfae857f](SMapping.assets/wecom-temp-0bde637062b9e750848b4f00bfae857f.png)
 
-
+<video src="SMapping.assets/4fff2498d3cc608ab1f2f8880aa73ae7.mov"></video>
 
 <video src="SMapping.assets/DT-small.mov"></video>
+
+<video src="SMapping.assets/5954da65cc76dea1fa869e222a746c3c.mov"></video>
+
+<video src="SMapping.assets/43676bc2be2d32bfc872d3a56a7a4654.mov"></video>
+
+<video src="SMapping.assets/61204b2435339191a9c7e4f7f2229d68.mov"></video>
 
