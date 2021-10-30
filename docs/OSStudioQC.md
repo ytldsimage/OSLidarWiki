@@ -2,7 +2,7 @@
 
 > 由于该软件是我们委托第三方开发，不像OusterViz原生开发，与VLP同底层，而OS Lidar 相对VLP增加了环境光数据及惯导数据，所以在win下兼容性不是很好，我们更推荐采用我们自己开发的OusterViz~
 >
-> 也可以用`wireshark`或者`tcpdump`来下载pcap！
+> 也可以用`wireshark`或者`tcpdump`来下载pcap；如需在linux下**过滤、分割以及合并 pcap 文件**，可见[此处](https://blog.csdn.net/qq_19004627/article/details/82287172)。
 >
 > 提示：Linux下记得chmod到可执行权限!!! 然后`cd bin/`，`sudo ./Ousterstudio`！！！
 >
