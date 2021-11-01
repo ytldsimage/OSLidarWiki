@@ -204,6 +204,10 @@
 
     对强光而言，相对于VLP日夜量程差距有20%，我们仅仅10-15%，这还是在850/865nm vs 905nm的情况下。
 
+    ![wecom-temp-86849c63b0aa29aba47dff5a87115e2f](faq-applications.assets/wecom-temp-86849c63b0aa29aba47dff5a87115e2f.jpg)
+
+    ![wecom-temp-54722be39855db63386d5a7748050aae](faq-applications.assets/wecom-temp-54722be39855db63386d5a7748050aae.jpg)
+
     ![image1-4](faq-applications.assets/image1-4.gif)
 
     ![image4](faq-applications.assets/image4.gif)
