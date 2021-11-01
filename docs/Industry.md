@@ -14,3 +14,4 @@
 
 ![402aaaba-22f2-4b5c-b1c2-38b062a4c3f2](Industry.assets/402aaaba-22f2-4b5c-b1c2-38b062a4c3f2.jpg)
 
+![wecom-temp-d017e59b926a629052b2558ee6e12138](Industry.assets/wecom-temp-d017e59b926a629052b2558ee6e12138.jpg)

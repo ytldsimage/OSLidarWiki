@@ -37,3 +37,8 @@
 ![wecom-temp-368fd72423727903366b73f8adf455e7](Mining.assets/wecom-temp-368fd72423727903366b73f8adf455e7.jpg)
 
 ![wecom-temp-489d6a1d1cf24b56b1fe39a54420610e](Mining.assets/wecom-temp-489d6a1d1cf24b56b1fe39a54420610e.png)
+
+![wecom-temp-65477448253c937fe2dad0daa4ca85af](Mining.assets/wecom-temp-65477448253c937fe2dad0daa4ca85af.jpg)
+
+![image-20211102005007251](Mining.assets/image-20211102005007251.png)
+

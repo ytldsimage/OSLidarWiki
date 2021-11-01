@@ -16,6 +16,8 @@
 
 ![wecom-temp-0810a5a98bea1fc660f93b8024bfc5cd](SMapping.assets/wecom-temp-0810a5a98bea1fc660f93b8024bfc5cd.jpg)
 
+![wecom-temp-d6a11ab0978b126d5c8e25dced979211](SMapping.assets/wecom-temp-d6a11ab0978b126d5c8e25dced979211.jpg)
+
 ![企业微信截图_418b4fde-14f0-40b3-94d5-4757004c0837](SMapping.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_418b4fde-14f0-40b3-94d5-4757004c0837.png)
 
 ![wecom-temp-69d43756f1953a88cf2221ee733882fa](SMapping.assets/wecom-temp-69d43756f1953a88cf2221ee733882fa.png)
