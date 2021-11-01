@@ -28,6 +28,8 @@
 
 <video src="SMapping.assets/4fff2498d3cc608ab1f2f8880aa73ae7.mov"></video>
 
+![wecom-temp-a6581308732e844a9925b29a663be39a](SMapping.assets/wecom-temp-a6581308732e844a9925b29a663be39a.png)
+
 <video src="SMapping.assets/DT-small.mov"></video>
 
 <video src="SMapping.assets/5954da65cc76dea1fa869e222a746c3c.mov"></video>

@@ -27,7 +27,7 @@
   - SCAL2:
     - Ouster Inc：https://drive.weixin.qq.com/s?k=AEYARQeBAAYRO7SHGRAE4AvQanABU
     - Ouster SZO: https://drive.weixin.qq.com/s?k=AEYARQeBAAY489MlMxAE4AvQanABU
-- OSUS License:      
+- [OSUS License](https://drive.weixin.qq.com/s?k=AEYARQeBAAYfwRwW4G):      
   - 英文版：
     - 注册书：https://drive.weixin.qq.com/s?k=AEYARQeBAAYGeZ96aRAE4AvQanABU
     - 附件：https://drive.weixin.qq.com/s?k=AEYARQeBAAYxbBQp0MAE4AvQanABU
