@@ -36,6 +36,8 @@
 
 ![wecom-temp-8ebea6cf6f780a30b0e3f6483852c7f5](Drones.assets/wecom-temp-8ebea6cf6f780a30b0e3f6483852c7f5.jpg)
 
+![wecom-temp-76e2ecdc3399b69dcd396ccd9aa67049](Drones.assets/wecom-temp-76e2ecdc3399b69dcd396ccd9aa67049.jpg)
+
 ![wecom-temp-0c07efcc2e368ae58c80b5381746de7a](Drones.assets/wecom-temp-0c07efcc2e368ae58c80b5381746de7a.jpg)
 
 ![wecom-temp-819226fe4fcaf53927c513dda7b58bf6](Drones.assets/wecom-temp-819226fe4fcaf53927c513dda7b58bf6.jpg)

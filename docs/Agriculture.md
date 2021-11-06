@@ -14,3 +14,6 @@
 
 ![企业微信截图_934e5d6d-2c9c-4a47-aa76-72e2cef52c6e](Agriculture.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_934e5d6d-2c9c-4a47-aa76-72e2cef52c6e.png)
 
+![wecom-temp-c47f35b0af3ce29c0a39900f549ee596](Agriculture.assets/wecom-temp-c47f35b0af3ce29c0a39900f549ee596.png)
+
+![wecom-temp-00cde1e006887ef275b7b69ac6f4f323](Agriculture.assets/wecom-temp-00cde1e006887ef275b7b69ac6f4f323.png)
