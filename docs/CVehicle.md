@@ -42,6 +42,8 @@
 
 ![企业微信截图_1edcf148-ff92-40ab-9fce-ca9e1a216d44](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1edcf148-ff92-40ab-9fce-ca9e1a216d44.png)
 
+![wecom-temp-42acb951849c4fa5f6e3363178fce38f](CVehicle.assets/wecom-temp-42acb951849c4fa5f6e3363178fce38f.jpg)
+
 ![wecom-temp-c660823d1a1356b5ab87ab4c2d964d90](CVehicle.assets/wecom-temp-c660823d1a1356b5ab87ab4c2d964d90.jpg)
 
 ![wecom-temp-981ad6ad1b8dd91e1fd34a01ab6460f7](CVehicle.assets/wecom-temp-981ad6ad1b8dd91e1fd34a01ab6460f7.jpg)

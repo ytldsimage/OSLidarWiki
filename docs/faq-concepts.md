@@ -103,6 +103,8 @@
 
    ![image-20210822223054662](faq-concepts.assets/image-20210822223054662.png)
 
+   ![wecom-temp-d82cc79add57ad8a045015f77dd4bed9](faq-concepts.assets/wecom-temp-d82cc79add57ad8a045015f77dd4bed9.png)
+
 9. lidar与超声波方案相比有什么区别？
 
    超声波: 距离1-5m，帧率3-5hz，无角分辨，机械波空气介质，对空气湿度敏感，精度在10cm-30cm，要做温飘修正，优点是，对玻璃等物体不敏感，便宜
