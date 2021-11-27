@@ -45,7 +45,7 @@
   
 - ### **[DFx](/DFLidar)**
 
-  > Solid State Digital Lidar(SSDL), 450m,26°X13°FOV, 0.1º HV-Resolution
+  > 全程高密，全局固化，中场凸出远瞻，边锋侧翼广布！
   
   - [技术手册](/DFLidar)
   - https://drive.weixin.qq.com/s?k=AEYARQeBAAYZgX00cu
