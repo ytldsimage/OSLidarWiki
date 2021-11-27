@@ -19,6 +19,7 @@
     - [Ouster Studio](/OSStudioQC.md)
     - [浏览器GUI配置](LidarConfig)
     - [TCP命令行配置](tcpCommand.md)
+    - [TCP GUI客户端 修改雷达参数](/TCPAPI)
 - **数据体系**
     - [数据结构](datastructure.md)
     - [数据样例](https://ouster.com/zh-cn/resources/lidar-sample-data/os-sample-data/download/)
