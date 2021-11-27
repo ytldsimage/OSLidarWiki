@@ -20,11 +20,13 @@
 
 ![wecom-temp-5fcac445a363f7a9f98170d46b02beab](CVehicle.assets/wecom-temp-5fcac445a363f7a9f98170d46b02beab.png)
 
+![[wecom-temp-661bdc6ae76197f4718abe796ff986cc](https://www.caranddriver.com/features/a38138621/may-mobility-autonomous-shuttle-mcity/)](CVehicle.assets/wecom-temp-661bdc6ae76197f4718abe796ff986cc.png)
+
 ![wecom-temp-e0f06b1141431142d8c5da7796f9dec0](CVehicle.assets/wecom-temp-e0f06b1141431142d8c5da7796f9dec0.jpg)
 
 ![wecom-temp-bb479cb866988d1aa715374ef52d4f6a](CVehicle.assets/wecom-temp-bb479cb866988d1aa715374ef52d4f6a.jpg)
 
-
+![[wecom-temp-3e3c9dd2f70fe20f12be53f5785c69e2](https://www.snowsat.com/en/home/lidar.html)](CVehicle.assets/wecom-temp-3e3c9dd2f70fe20f12be53f5785c69e2.png)	
 
 ![wecom-temp-9648ac97c4d30c620dbadd3e2c427bc1](CVehicle.assets/wecom-temp-9648ac97c4d30c620dbadd3e2c427bc1.jpg)
 

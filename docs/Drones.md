@@ -4,6 +4,10 @@
 
 ![wecom-temp-1a4b7e9723526a9953723279d8e4d4d3](Drones.assets/wecom-temp-1a4b7e9723526a9953723279d8e4d4d3.jpg)
 
+![image-20211127193414953](Drones.assets/image-20211127193414953.png)
+
+![[image-20211127194036819](https://www.vdma-verlag.com/home/artikel_147.html)](Drones.assets/image-20211127194036819.png)	
+
 ![wecom-temp-d8ac083b76ced4953702dcf3555e2a8c](Drones.assets/wecom-temp-d8ac083b76ced4953702dcf3555e2a8c.jpg)
 
 ![wecom-temp-503798d4f29bfd5cf0421d92c27b5b62](Drones.assets/wecom-temp-503798d4f29bfd5cf0421d92c27b5b62.jpg)
@@ -11,6 +15,8 @@
 ![wecom-temp-c930c8e494cfe71264d7f6e96ae2d6d1](Drones.assets/wecom-temp-c930c8e494cfe71264d7f6e96ae2d6d1.jpg)
 
 ![wecom-temp-045724080c824c1c2a19136475d44a48](Drones.assets/wecom-temp-045724080c824c1c2a19136475d44a48.jpg)
+
+![wecom-temp-3dd0e880d77cabf13e754faf5551e051](Drones.assets/wecom-temp-3dd0e880d77cabf13e754faf5551e051.png)
 
 ![wecom-temp-ffa9c15a567e5e577c3593533563918e](Drones.assets/wecom-temp-ffa9c15a567e5e577c3593533563918e.jpg)
 

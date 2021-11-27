@@ -14,5 +14,7 @@
 
 ![企业微信截图_b1a4361d-a6d7-4740-811f-ac896f8a587b](USV.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_b1a4361d-a6d7-4740-811f-ac896f8a587b.png)
 
+![[wecom-temp-d4c1f71bb976461b54de9550fb4c78da](https://www.cnet.com/news/autonomous-roboats-are-ferries-waste-collectors-and-bridges-all-in-one/)](USV.assets/wecom-temp-d4c1f71bb976461b54de9550fb4c78da-8012171.png)
+
 ![企业微信截图_2d2c0700-0d5f-4e35-93dc-1e853c9035fd](USV.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_2d2c0700-0d5f-4e35-93dc-1e853c9035fd.png)
 

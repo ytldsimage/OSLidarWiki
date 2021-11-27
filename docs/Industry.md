@@ -8,6 +8,8 @@
 
 ![wecom-temp-203378e027868611990ed41a021d63e6](Industry.assets/wecom-temp-203378e027868611990ed41a021d63e6.png)
 
+![wecom-temp-772750e80a37db6ff4ec024e99110453](Industry.assets/wecom-temp-772750e80a37db6ff4ec024e99110453.png)
+
 ![wecom-temp-68c76ea4da4e516852a0215d71c05dd7](Industry.assets/wecom-temp-68c76ea4da4e516852a0215d71c05dd7.png)
 
 ![wecom-temp-53184bc439918bbae8bc38de11a0ea4c](Industry.assets/wecom-temp-53184bc439918bbae8bc38de11a0ea4c.png)
