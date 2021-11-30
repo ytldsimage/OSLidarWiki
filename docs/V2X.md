@@ -1,6 +1,6 @@
 # 车路协同
 
-![18f20de6-d8ea-4f40-a344-64b9c8660b3f](V2X.assets/18f20de6-d8ea-4f40-a344-64b9c8660b3f.jpg)
+
 
 ![企业微信截图_33500e6a-0ba9-48ca-b213-b5c11130f631](V2X.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_33500e6a-0ba9-48ca-b213-b5c11130f631.png)
 
@@ -60,3 +60,4 @@
 
 <video src="V2X.assets/020ad20a4c8a2b00a5a4e1339b04e293.mov"></video>
 
+![image-20211130123638340](V2X.assets/image-20211130123638340.png)
