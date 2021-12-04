@@ -14,6 +14,8 @@
 
 ![wecom-temp-c930c8e494cfe71264d7f6e96ae2d6d1](Drones.assets/wecom-temp-c930c8e494cfe71264d7f6e96ae2d6d1.jpg)
 
+![[wecom-temp-4d651aa8699ef9ad67e0e857dcb9c7c5](https://www.therobotreport.com/swris-demos-drone-autonomy-nuclear-power-plant/?spMailingID=59044&puid=1266931&E=1266931&utm_source=newsletter&utm_medium=email&utm_campaign=59044)](Drones.assets/wecom-temp-4d651aa8699ef9ad67e0e857dcb9c7c5.png)
+
 ![wecom-temp-045724080c824c1c2a19136475d44a48](Drones.assets/wecom-temp-045724080c824c1c2a19136475d44a48.jpg)
 
 ![wecom-temp-3dd0e880d77cabf13e754faf5551e051](Drones.assets/wecom-temp-3dd0e880d77cabf13e754faf5551e051.png)
