@@ -1,6 +1,6 @@
 # 无人机
 
-> SampleData from NUS： https://ntu-aris.github.io/ntu_viral_dataset/
+> SampleData from NTU： https://ntu-aris.github.io/ntu_viral_dataset/
 
 ![wecom-temp-c308464c026c46986c29e1aeef131241](Drones.assets/wecom-temp-c308464c026c46986c29e1aeef131241.jpg)
 
