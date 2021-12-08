@@ -28,6 +28,10 @@
 
 ![[image-20211127194643327](https://www.youtube.com/watch?v=I8Q92kgXjdI)](Robotics.assets/image-20211127194643327.png)
 
+![[wecom-temp-3e6b65959895e17b18ff4a0585024993](https://www.youtube.com/watch?v=Uxt2wTI0m5o)](Robotics.assets/wecom-temp-3e6b65959895e17b18ff4a0585024993.png)
+
+![wecom-temp-a1c81f5318209c5be72bd2c72b57cc18](Robotics.assets/wecom-temp-a1c81f5318209c5be72bd2c72b57cc18.png)
+
 ![[wecom-temp-29c34194d243e108a54f1900a1e9ceb8](https://agrosy.informatik.uni-kl.de/roboter/postbot/)](Robotics.assets/wecom-temp-29c34194d243e108a54f1900a1e9ceb8.png)
 
 ![[wecom-temp-b28cc3423c698f53f2bee94506f54a72](https://www.investors.com/news/technology/darpa-subterranean-challenge-international-robot-team-takes-top-prize/)](Robotics.assets/wecom-temp-b28cc3423c698f53f2bee94506f54a72.png)
