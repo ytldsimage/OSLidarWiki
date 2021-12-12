@@ -31,7 +31,9 @@
 
 - 在默认Automatic扫描模式下，一般就能扫描出雷达的IPv4地址，如下图所示雷达IPv4地址是169.254.23.116。当然，有时候OusterStudio也无法扫描出来雷达的IPv4，这时候需要通过Wireshark来查询雷达IP。
 
-![image002](NetworkIP.assets/image002.png) 
+![image002](NetworkIP.assets/image002.png)
+
+ 
 
 #### 1.1.2   用Wireshark抓包查询雷达IP
 

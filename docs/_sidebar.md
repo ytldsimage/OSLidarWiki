@@ -38,6 +38,7 @@
 - **常见问题**
     - **[Webslam免费在线建图](/webslam)**
     - **[其他开源SLAM工具](/OSlam)**
+    - **[3DDetection论文与源码](/3DDetection)**
     - **[技术支持](https://ouster.atlassian.net/servicedesk/customer/portal/8/group/22/create/86)**
     - **[FAQ](/faq)**
 
