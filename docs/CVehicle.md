@@ -8,8 +8,6 @@
 
 ![企业微信截图_6c159486-ac88-4305-bf95-17c9c0b09754](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_6c159486-ac88-4305-bf95-17c9c0b09754.png)
 
-![image-20211102003911588](CVehicle.assets/image-20211102003911588.png)
-
 ![wecom-temp-78505fdea362f0bff55f8d3a784098da](CVehicle.assets/wecom-temp-78505fdea362f0bff55f8d3a784098da.png)
 
 ![wecom-temp-7e03b604a284e70740cb63ea0b444c41](CVehicle.assets/wecom-temp-7e03b604a284e70740cb63ea0b444c41.png)
@@ -20,11 +18,19 @@
 
 ![wecom-temp-5fcac445a363f7a9f98170d46b02beab](CVehicle.assets/wecom-temp-5fcac445a363f7a9f98170d46b02beab.png)
 
+![企业微信截图_be6a19e5-b924-4e1a-92ad-196e4a8178cb](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_be6a19e5-b924-4e1a-92ad-196e4a8178cb.png)
+
+![企业微信截图_689a45b1-bc37-45e0-83d5-a12f7983c523](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_689a45b1-bc37-45e0-83d5-a12f7983c523.png)
+
 ![[wecom-temp-661bdc6ae76197f4718abe796ff986cc](https://www.caranddriver.com/features/a38138621/may-mobility-autonomous-shuttle-mcity/)](CVehicle.assets/wecom-temp-661bdc6ae76197f4718abe796ff986cc.png)
 
 ![wecom-temp-e0f06b1141431142d8c5da7796f9dec0](CVehicle.assets/wecom-temp-e0f06b1141431142d8c5da7796f9dec0.jpg)
 
 ![wecom-temp-bb479cb866988d1aa715374ef52d4f6a](CVehicle.assets/wecom-temp-bb479cb866988d1aa715374ef52d4f6a.jpg)
+
+![企业微信截图_c7cfef84-169d-48e1-be3c-b3d407b67264](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_c7cfef84-169d-48e1-be3c-b3d407b67264.png)
+
+![企业微信截图_f9ff2162-46c0-4d0d-8a6b-745db7140fe8](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_f9ff2162-46c0-4d0d-8a6b-745db7140fe8.png)
 
 ![[wecom-temp-3e3c9dd2f70fe20f12be53f5785c69e2](https://www.snowsat.com/en/home/lidar.html)](CVehicle.assets/wecom-temp-3e3c9dd2f70fe20f12be53f5785c69e2.png)	
 
@@ -44,7 +50,13 @@
 
 ![企业微信截图_1edcf148-ff92-40ab-9fce-ca9e1a216d44](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1edcf148-ff92-40ab-9fce-ca9e1a216d44.png)
 
+![企业微信截图_14375863-1a2b-49d7-99f2-ba47c146c8c7](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_14375863-1a2b-49d7-99f2-ba47c146c8c7.png)
+
 ![wecom-temp-42acb951849c4fa5f6e3363178fce38f](CVehicle.assets/wecom-temp-42acb951849c4fa5f6e3363178fce38f.jpg)
+
+![企业微信截图_1ad22eb8-4ea6-4bee-a2dc-745165ff0395](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1ad22eb8-4ea6-4bee-a2dc-745165ff0395.png)
+
+![企业微信截图_30113afb-bcd9-4d51-86f7-0ec9ee355d99](CVehicle.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_30113afb-bcd9-4d51-86f7-0ec9ee355d99.png)
 
 ![wecom-temp-c660823d1a1356b5ab87ab4c2d964d90](CVehicle.assets/wecom-temp-c660823d1a1356b5ab87ab4c2d964d90.jpg)
 

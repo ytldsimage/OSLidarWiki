@@ -12,7 +12,7 @@
 
 ![wecom-temp-b869a754c4938d332a25b5604839ff35](Mining.assets/wecom-temp-b869a754c4938d332a25b5604839ff35.png)
 
-
+![wecom-temp-bf8b30f68e177f3e329b5ff224a68b41](Mining.assets/wecom-temp-bf8b30f68e177f3e329b5ff224a68b41.jpg)
 
 ![企业微信截图_b5e589f8-7d6f-4f1e-abd3-726063d9f5da](Mining.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_b5e589f8-7d6f-4f1e-abd3-726063d9f5da.png)
 

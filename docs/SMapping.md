@@ -18,9 +18,11 @@
 
 ![wecom-temp-0810a5a98bea1fc660f93b8024bfc5cd](SMapping.assets/wecom-temp-0810a5a98bea1fc660f93b8024bfc5cd.jpg)
 
-![[wecom-temp-ca096e1804a1c43dba1971c901f165b2](https://www.youtube.com/watch?v=AvPkmkTFXkw)](../../../../var/folders/4j/mds3xyzx0xj3td3v6d00zz9m000570/T/com.tencent.WeWorkMac/wecom-temp-ca096e1804a1c43dba1971c901f165b2.png)
+![[image-20211212144343743](https://www.youtube.com/watch?v=AvPkmkTFXkw)](SMapping.assets/image-20211212144343743.png)
 
 ![wecom-temp-d6a11ab0978b126d5c8e25dced979211](SMapping.assets/wecom-temp-d6a11ab0978b126d5c8e25dced979211.jpg)
+
+![企业微信截图_96d95b50-fdc8-448c-be7d-2e004f9cc253](SMapping.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_96d95b50-fdc8-448c-be7d-2e004f9cc253.png)
 
 ![wecom-temp-387acb6e81d3ab77613c648f382d6938](SMapping.assets/wecom-temp-387acb6e81d3ab77613c648f382d6938.png)
 
