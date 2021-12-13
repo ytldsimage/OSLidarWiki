@@ -1,6 +1,10 @@
 # 无人机
 
 > SampleData from NTU： https://ntu-aris.github.io/ntu_viral_dataset/
+>
+> [Treeswift’s Autonomous Robots Take Flight to Save Forests](https://blog.seas.upenn.edu/treeswifts-autonomous-robots-take-flight-to-save-forests/)
+>
+> [Sevendof - 2020-03-07 - Superdemo #3](https://www.youtube.com/watch?v=07FoSaGxQ9g)
 
 ![wecom-temp-c308464c026c46986c29e1aeef131241](Drones.assets/wecom-temp-c308464c026c46986c29e1aeef131241.jpg)
 
@@ -20,11 +24,13 @@
 
 ![wecom-temp-045724080c824c1c2a19136475d44a48](Drones.assets/wecom-temp-045724080c824c1c2a19136475d44a48.jpg)
 
+![[image-20211212154918790](https://www.youtube.com/watch?v=07FoSaGxQ9g)](Drones.assets/image-20211212154918790.png)
+
 ![wecom-temp-3dd0e880d77cabf13e754faf5551e051](Drones.assets/wecom-temp-3dd0e880d77cabf13e754faf5551e051.png)
 
 ![wecom-temp-ffa9c15a567e5e577c3593533563918e](Drones.assets/wecom-temp-ffa9c15a567e5e577c3593533563918e.jpg)
 
-![wecom-temp-8a06d987a19320a6670482f24d948a6b](Drones.assets/wecom-temp-8a06d987a19320a6670482f24d948a6b.jpg)
+![[Treeswift’s Autonomous Robots Take Flight to Save Forests](https://blog.seas.upenn.edu/treeswifts-autonomous-robots-take-flight-to-save-forests/)](Drones.assets/wecom-temp-8a06d987a19320a6670482f24d948a6b.jpg)
 
 ![wecom-temp-ab9832617086582f6620db994ebd0e69](Drones.assets/wecom-temp-ab9832617086582f6620db994ebd0e69.jpg)
 
@@ -95,6 +101,8 @@
 ![wecom-temp-5996c8337a5d33a7ef01c79f9f37ed9f](Drones.assets/wecom-temp-5996c8337a5d33a7ef01c79f9f37ed9f.png)
 
 ![wecom-temp-a5320a1d6f4e6dfaabfaf389cccea8f7](Drones.assets/wecom-temp-a5320a1d6f4e6dfaabfaf389cccea8f7.png)
+
+![wecom-temp-b66eda82f03a6a680bf88c41cbb208f1](Drones.assets/wecom-temp-b66eda82f03a6a680bf88c41cbb208f1.png)
 
 ![image-20211212133541779](Drones.assets/image-20211212133541779.png)
 

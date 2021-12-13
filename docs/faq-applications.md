@@ -387,13 +387,27 @@
 
       IEC 60068-2-64 (振幅: 3 G-rms,10 - 1000 Hz, 底座为簧载质量, 3个方向/每个方向8小时) (Amplitude: 3 G-rms, Shape: 10 - 1000 Hz, Mounting: sprung masses, 3 axes w/ 8 hr duration each)
 
-    - 标准工作环境温度-20ºC至+50ºC，目前已经支持<-40ºC低温结霜冷启，高温区计划Q4实现65ºC，明年Q1实现85ºC
+    - 标准工作环境温度-40ºC至+60ºC，目前已经支持<-40ºC低温结霜冷启，高温区计划Q4实现65ºC，明年Q1实现85ºC
 
     - 车规认证进行中，预计于2022年达到ASIL B (D)及SIL-2
 
 48. 低温40度结霜冷启有什么成功案例可以公开讲的么？
 
     我们有一些矿车矿卡用户，在东北与内蒙需要这种需求，虽然受限于NDA，我们无法披露太多信息，但是大家可以参考如下这篇文章:[世界首个极寒工况5G+220吨无人驾驶卡车可开展工业性试运行 by 航天重工](https://mp.weixin.qq.com/s?__biz=MzA5NjE4NDU0Nw==&mid=2651138542&idx=1&sn=5cbb2dfd8a5d32bfd2b6072a73526888&chksm=8b427862bc35f1746bcee426ab7608886ce056e7430c0c50abc6c761f4848de2dd7f39172cd7&mpshare=1&scene=1&srcid=1020759p7edkaN48tDlnt3Lg&sharer_sharetime=1603175206760&sharer_shareid=94ee7e8302d8a6f4bf452858280a47e4&version=3.0.31.2308&platform=mac#rd)。
+
+    ![企业微信截图_48238692-de3d-483c-9257-70fae9930efd](faq-applications.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_48238692-de3d-483c-9257-70fae9930efd.png)
+
+    ![企业微信截图_cc2d48e0-407a-4767-a2f3-2a44e13aaa53](faq-applications.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_cc2d48e0-407a-4767-a2f3-2a44e13aaa53.png)
+
+    ![企业微信截图_f2d4e2b4-9177-4863-9a11-ddbd677fa890](faq-applications.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_f2d4e2b4-9177-4863-9a11-ddbd677fa890.png)
+
+    ![企业微信截图_4bb7d751-4c7e-48c8-bbfe-a24140f2f370](faq-applications.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_4bb7d751-4c7e-48c8-bbfe-a24140f2f370.png)
+
+    ![企业微信截图_35f0d79a-7486-4eb6-b724-617ee6dfb91c](faq-applications.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_35f0d79a-7486-4eb6-b724-617ee6dfb91c.png)
+
+    ![企业微信截图_40a2b694-9890-4c43-b263-8ff69df02400](faq-applications.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_40a2b694-9890-4c43-b263-8ff69df02400.png)
+
+    ![dd4702ac-ee54-456c-8e89-dc0a6e233a94](faq-applications.assets/dd4702ac-ee54-456c-8e89-dc0a6e233a94.jpg)
 
 49. 工作温度指的是环境温度，还是雷达自身温度？有无进一步拓宽温度区间的计划？
 

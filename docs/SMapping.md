@@ -4,6 +4,8 @@
 
 ![企业微信截图_79469546-5ef2-4ef9-a47f-9c0d34841af8](SMapping.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_79469546-5ef2-4ef9-a47f-9c0d34841af8.png)
 
+![a293d83f-0924-4d18-9bd6-f1aa9df5345f](SMapping.assets/a293d83f-0924-4d18-9bd6-f1aa9df5345f.png)
+
 ![wecom-temp-f56e3d97a970fa7f34c59e07307cebd1](SMapping.assets/wecom-temp-f56e3d97a970fa7f34c59e07307cebd1.png)
 
 ![[image-20211030184445340](/9_GoSLAM DS100产品介绍1.1)](SMapping.assets/image-20211030184445340.png)
@@ -19,6 +21,10 @@
 ![wecom-temp-0810a5a98bea1fc660f93b8024bfc5cd](SMapping.assets/wecom-temp-0810a5a98bea1fc660f93b8024bfc5cd.jpg)
 
 ![[image-20211212144343743](https://www.youtube.com/watch?v=AvPkmkTFXkw)](SMapping.assets/image-20211212144343743.png)
+
+
+
+![wecom-temp-01b2281a7499339a1b86a8af1d463d5b](SMapping.assets/wecom-temp-01b2281a7499339a1b86a8af1d463d5b.png)
 
 ![wecom-temp-d6a11ab0978b126d5c8e25dced979211](SMapping.assets/wecom-temp-d6a11ab0978b126d5c8e25dced979211.jpg)
 
@@ -44,9 +50,13 @@
 
 ![6163a984-be26-4bda-9eda-ceea1217466b](SMapping.assets/6163a984-be26-4bda-9eda-ceea1217466b.jpg)
 
+![9a1bb4d7-5bc2-4800-a9df-dcbf6d20328b](SMapping.assets/9a1bb4d7-5bc2-4800-a9df-dcbf6d20328b.jpg)
+
 ![f504e5af-a432-49ba-8a62-34bf0227c4c5](SMapping.assets/f504e5af-a432-49ba-8a62-34bf0227c4c5.jpg)
 
+![企业微信截图_4ac4c258-6942-461d-99a7-dd49d3dde1ac](SMapping.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_4ac4c258-6942-461d-99a7-dd49d3dde1ac.png)
 
+![企业微信截图_1561ed61-a911-43de-b7d3-9abd24a7b7a9](SMapping.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_1561ed61-a911-43de-b7d3-9abd24a7b7a9.png)
 
 ![wecom-temp-806311d5a99eca1f9643eb1c090ef1b4](SMapping.assets/wecom-temp-806311d5a99eca1f9643eb1c090ef1b4.png)
 
@@ -68,3 +78,6 @@
 
 <video src="SMapping.assets/61204b2435339191a9c7e4f7f2229d68.mov"></video>
 
+![bf312844-dc42-4eb7-8230-729e5e327a36](SMapping.assets/bf312844-dc42-4eb7-8230-729e5e327a36-9300746.png)
+
+<video src="SMapping.assets/AKK.mov"></video>
