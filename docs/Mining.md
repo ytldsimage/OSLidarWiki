@@ -8,7 +8,7 @@
 >
 > [伊敏露天矿](https://mp.weixin.qq.com/s?__biz=MzU3NjU5MDY3NQ==&mid=2247502803&idx=7&sn=db574eec14a687d9b6817492281cd87e&chksm=fd130defca6484f920e0ecad8cf6343f19d4ccee8d770cf1b3de49460bb89aa1e26b8877447d&mpshare=1&scene=1&srcid=1126Ww8HpUSNYdfhuXGeDpVF&sharer_sharetime=1606354247574&sharer_shareid=94ee7e8302d8a6f4bf452858280a47e4&version=3.1.20.90367&platform=mac#rd)
 >
-> 
+> [Robotic Research Announces $228 Million Series A Funding Round to Scale Autonomous Technology Commercially](https://www.businesswire.com/news/home/20211208006171/en/Robotic-Research-Announces-228-Million-Series-A-Funding-Round-to-Scale-Autonomous-Technology-Commercially)
 
 ![wecom-temp-d5ef0afd3e98a35e642268f5838352a9](Mining.assets/wecom-temp-d5ef0afd3e98a35e642268f5838352a9.png)
 
@@ -59,6 +59,12 @@
 ![[wecom-temp-65477448253c937fe2dad0daa4ca85af](https://mp.weixin.qq.com/s?__biz=MzA5NjE4NDU0Nw==&mid=2651138542&idx=1&sn=5cbb2dfd8a5d32bfd2b6072a73526888&chksm=8b427862bc35f1746bcee426ab7608886ce056e7430c0c50abc6c761f4848de2dd7f39172cd7&mpshare=1&scene=1&srcid=1020759p7edkaN48tDlnt3Lg&sharer_sharetime=1603175206760&sharer_shareid=94ee7e8302d8a6f4bf452858280a47e4&version=3.1.20.90367&platform=mac#rd)](Mining.assets/wecom-temp-65477448253c937fe2dad0daa4ca85af.jpg)
 
 ![wecom-temp-6082767b4a71d5e353c8eddaca65a2fd](Mining.assets/wecom-temp-6082767b4a71d5e353c8eddaca65a2fd.png)
+
+![wecom-temp-64677e636f5b5c47e64f408d1c93a69f](Mining.assets/wecom-temp-64677e636f5b5c47e64f408d1c93a69f.png)
+
+![wecom-temp-5925b1b0e138ae95efed173fd4009cb5](Mining.assets/wecom-temp-5925b1b0e138ae95efed173fd4009cb5.png)
+
+![wecom-temp-e526d2467bccde4e8cb064d7aae1d4ca](Mining.assets/wecom-temp-e526d2467bccde4e8cb064d7aae1d4ca.png)
 
 ![[wecom-temp-7e0f2ac7b372f0be118970575ead018a](https://mp.weixin.qq.com/s?__biz=MzU3NjU5MDY3NQ==&mid=2247502803&idx=7&sn=db574eec14a687d9b6817492281cd87e&chksm=fd130defca6484f920e0ecad8cf6343f19d4ccee8d770cf1b3de49460bb89aa1e26b8877447d&mpshare=1&scene=1&srcid=1126Ww8HpUSNYdfhuXGeDpVF&sharer_sharetime=1606354247574&sharer_shareid=94ee7e8302d8a6f4bf452858280a47e4&version=3.1.20.90367&platform=mac#rd)](Mining.assets/wecom-temp-7e0f2ac7b372f0be118970575ead018a.jpg)
 
