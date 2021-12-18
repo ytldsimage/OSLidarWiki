@@ -14,6 +14,8 @@
 
 ![ezgif-3-97ec629506fc](V2X.assets/ezgif-3-97ec629506fc.gif)
 
+![wecom-temp-ce286a03371040380b0d9105371fb776](V2X.assets/wecom-temp-ce286a03371040380b0d9105371fb776.jpg)
+
 ![[wecom-temp-1e92416a46d65f23c8c179a8698919fc](V2X.assets/Ouster_solution_overview_ITS.pdf)](V2X.assets/wecom-temp-1e92416a46d65f23c8c179a8698919fc.png)
 
 ![wecom-temp-1a611984c750aa5e1ce293727c4898f3](V2X.assets/wecom-temp-1a611984c750aa5e1ce293727c4898f3.png)

@@ -78,6 +78,10 @@
 
 ![企业微信截图_d59f6e96-f683-4994-af92-604a78436498](12.png)
 
+![wecom-temp-56620ec66ec5ff2d8b5669af99a1a8fe](Robotics.assets/wecom-temp-56620ec66ec5ff2d8b5669af99a1a8fe.png)
+
+![wecom-temp-d579266e81f0a356436a2c81aca62bb5](Robotics.assets/wecom-temp-d579266e81f0a356436a2c81aca62bb5.jpg)
+
 ![wecom-temp-242e89daa06bbbaf4eff20978ba7fefd](Robotics.assets/wecom-temp-242e89daa06bbbaf4eff20978ba7fefd.jpg)
 
 ![wecom-temp-fec0bd9f81bf6f2f76f331084416bc57](Robotics.assets/wecom-temp-fec0bd9f81bf6f2f76f331084416bc57.jpg)
@@ -94,3 +98,4 @@
 
 ![企业微信截图_ba7d5a10-edc5-4acf-a488-6d371d2171d5](idriverplus.png)
 
+![[wecom-temp-c6c56fd640baf6d5f4cde3b8c1d1645e](https://www.detroitnews.com/story/business/autos/ford/2021/12/14/ford-autonomous-shuttle-deliver-food-detroit-senior-citizens/6498168001/)](Robotics.assets/wecom-temp-c6c56fd640baf6d5f4cde3b8c1d1645e.png)
