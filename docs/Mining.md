@@ -30,6 +30,10 @@
 
 ![企业微信截图_b5e589f8-7d6f-4f1e-abd3-726063d9f5da](Mining.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_b5e589f8-7d6f-4f1e-abd3-726063d9f5da.png)
 
+![wecom-temp-5f8ea81b58b638e460d702d779110af6](Mining.assets/wecom-temp-5f8ea81b58b638e460d702d779110af6.jpg)
+
+![wecom-temp-d8e5b1aaca0524eebc722f0cbcd7700a](Mining.assets/wecom-temp-d8e5b1aaca0524eebc722f0cbcd7700a.jpg)
+
 ![企业微信截图_4b58754b-fa16-48d1-a2ed-ec172fc5b65c](Mining.assets/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_4b58754b-fa16-48d1-a2ed-ec172fc5b65c.png)
 
 ![wecom-temp-b45d5db6e6f76ee87929b93ecd4cbcef](Mining.assets/wecom-temp-b45d5db6e6f76ee87929b93ecd4cbcef.png)
